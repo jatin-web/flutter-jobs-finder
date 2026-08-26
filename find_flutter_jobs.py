@@ -96,7 +96,8 @@ REQUEST_TIMEOUT = 15
 SLEEP_BETWEEN_REQUESTS = 0.4  # be polite to the APIs
 
 OUT_DIR = Path(__file__).parent
-LATEST_FILE = OUT_DIR / "flutter_jobs_latest.json"
+LATEST_FILE = OUT_DIR / "flutter_jobs_latest.json"     # filtered, user-facing
+RAW_SNAPSHOT_FILE = OUT_DIR / "flutter_jobs_raw.json"  # unfiltered, diff-tracking only
 CSV_FILE = OUT_DIR / "flutter_jobs.csv"
 NEW_FILE = OUT_DIR / "newly_posted.json"
 CLOSED_FILE = OUT_DIR / "closed_since_last_run.json"
@@ -197,7 +198,7 @@ def collect_all_jobs() -> list[dict]:
     return all_jobs
 
 
-def apply_location_filter(jobs: list[dict]) -> list[dict]:
+def apply_location_filter(jobs: list[dict], verbose: bool = True) -> list[dict]:
     """Keep only jobs matching LOCATION_FILTER keywords. No-op if None."""
     if LOCATION_FILTER is None:
         return jobs
@@ -207,7 +208,7 @@ def apply_location_filter(jobs: list[dict]) -> list[dict]:
         if any(keyword in loc for keyword in LOCATION_FILTER):
             kept.append(job)
     dropped = len(jobs) - len(kept)
-    if dropped:
+    if dropped and verbose:
         print(f"Location filter: kept {len(kept)}, dropped {dropped} (not India-tagged)")
     return kept
 
@@ -218,12 +219,15 @@ def job_key(job: dict) -> str:
 
 
 def diff_against_previous(current_jobs: list[dict]) -> tuple[list[dict], list[dict]]:
-    """Compare this run's jobs to the last saved snapshot.
-    Returns (newly_posted, closed_since_last_run)."""
-    if not LATEST_FILE.exists():
+    """Compare this run's RAW (unfiltered) jobs to the last saved RAW snapshot.
+    Using the unfiltered set here means the diff reflects jobs actually
+    opening/closing -- not artifacts of changing LOCATION_FILTER later.
+    Returns (newly_posted, closed_since_last_run), both still unfiltered --
+    callers should apply the location filter to these before displaying."""
+    if not RAW_SNAPSHOT_FILE.exists():
         return current_jobs, []  # first run ever -- everything is "new"
 
-    previous_jobs = json.loads(LATEST_FILE.read_text())
+    previous_jobs = json.loads(RAW_SNAPSHOT_FILE.read_text())
     prev_keys = {job_key(j): j for j in previous_jobs}
     curr_keys = {job_key(j): j for j in current_jobs}
 
@@ -245,9 +249,16 @@ def write_csv(jobs: list[dict]):
 def main():
     print(f"Run started: {datetime.now(timezone.utc).isoformat()}\n")
 
-    current_jobs = collect_all_jobs()
-    current_jobs = apply_location_filter(current_jobs)
-    new_jobs, closed_jobs = diff_against_previous(current_jobs)
+    current_jobs_raw = collect_all_jobs()
+    new_jobs, closed_jobs = diff_against_previous(current_jobs_raw)
+
+    # Save the RAW (unfiltered) snapshot for next run's diff to compare against.
+    RAW_SNAPSHOT_FILE.write_text(json.dumps(current_jobs_raw, indent=2))
+
+    # Everything shown to the user/written to the public files is filtered.
+    current_jobs = apply_location_filter(current_jobs_raw)
+    new_jobs = apply_location_filter(new_jobs, verbose=False)
+    closed_jobs = apply_location_filter(closed_jobs, verbose=False)
 
     LATEST_FILE.write_text(json.dumps(current_jobs, indent=2))
     NEW_FILE.write_text(json.dumps(new_jobs, indent=2))
