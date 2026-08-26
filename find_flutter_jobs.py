@@ -51,27 +51,45 @@ import requests
 # still resolves before relying on it (companies change ATS providers).
 
 GREENHOUSE_COMPANIES = [
-    "robinhood",
-    "doordash",
-    "coinbase",
-    "reddit",
-    "affirm",
-    "asana",
-    "instacart",
+    "truecaller",       # verified via live posting, Aug 2026 (India-facing)
+    "inthepocket",      # verified via live posting, Aug 2026
+    "springhealth66",   # verified via live posting, Aug 2026
+    "embrace",          # verified via live posting, Aug 2026
+    "upwork",           # verified via live posting, Aug 2026
+    "moniepoint",       # verified via live posting, Aug 2026
+    "hs",                # Headspace -- verified via live posting, Aug 2026
+    "projectaservicesgmbhcokg",  # verified via live posting, Aug 2026
 ]
 
 LEVER_COMPANIES = [
-    "netflix",
-    "shopify",
-    "brex",
-    "postman",
-    "attentive",
+    "paytm",     # verified via live posting, Aug 2026 (India)
+    "SKIMS",     # verified via live posting, Aug 2026
+    "idt",       # verified via live posting, Aug 2026
+    "jobgether", # verified via live posting, Aug 2026 -- staffing agency, posts many client roles
+    "scale3c",   # verified via live posting, Aug 2026
 ]
 
 # Keywords used to decide whether a posting is "Flutter-relevant".
 # Kept broad but excludes plain "mobile developer" postings that never
 # mention Flutter/Dart, since those are usually native iOS/Android.
 FLUTTER_KEYWORDS = re.compile(r"\bflutter\b|\bdart\b", re.IGNORECASE)
+
+# ---------------------------------------------------------------------------
+# LOCATION FILTER -- set to None for worldwide (no filtering), or a list of
+# keywords to only keep jobs whose location string matches one of them.
+# This is intentionally a single toggle: flip LOCATION_FILTER to None later
+# to go worldwide without touching any other logic.
+# ---------------------------------------------------------------------------
+LOCATION_FILTER = [
+    "india", "bangalore", "bengaluru", "mumbai", "delhi", "ncr", "gurgaon",
+    "gurugram", "noida", "pune", "hyderabad", "chennai", "kolkata",
+    "ahmedabad", "kochi", "cochin", "chandigarh", "jaipur",
+]
+# Note: this is a simple substring match on whatever location string the
+# ATS gives us -- e.g. "Bengaluru, India" or "Remote - India" both match.
+# It will NOT catch jobs the company tags only as "Remote" with no country
+# (some India-open remote roles get missed this way) -- worth checking
+# those manually until the filter is made smarter.
 
 HEADERS = {"User-Agent": "flutter-job-finder/1.0 (personal project)"}
 REQUEST_TIMEOUT = 15
@@ -179,6 +197,21 @@ def collect_all_jobs() -> list[dict]:
     return all_jobs
 
 
+def apply_location_filter(jobs: list[dict]) -> list[dict]:
+    """Keep only jobs matching LOCATION_FILTER keywords. No-op if None."""
+    if LOCATION_FILTER is None:
+        return jobs
+    kept = []
+    for job in jobs:
+        loc = (job.get("location") or "").lower()
+        if any(keyword in loc for keyword in LOCATION_FILTER):
+            kept.append(job)
+    dropped = len(jobs) - len(kept)
+    if dropped:
+        print(f"Location filter: kept {len(kept)}, dropped {dropped} (not India-tagged)")
+    return kept
+
+
 def job_key(job: dict) -> str:
     """Stable identifier for diffing between runs."""
     return f"{job['source']}:{job['company']}:{job['job_id']}"
@@ -213,6 +246,7 @@ def main():
     print(f"Run started: {datetime.now(timezone.utc).isoformat()}\n")
 
     current_jobs = collect_all_jobs()
+    current_jobs = apply_location_filter(current_jobs)
     new_jobs, closed_jobs = diff_against_previous(current_jobs)
 
     LATEST_FILE.write_text(json.dumps(current_jobs, indent=2))
