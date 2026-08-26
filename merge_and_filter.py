@@ -21,14 +21,15 @@ import json
 from pathlib import Path
 
 BASE_DIR = Path(__file__).parent
+OUTPUT_DIR = BASE_DIR / "output"
 
 # ---------------------------------------------------------------------------
 # Every raw snapshot file to merge. Add a line here when a new fetcher is
 # added -- this is the one and only place that needs to know.
 # ---------------------------------------------------------------------------
 RAW_SOURCE_FILES = [
-    BASE_DIR / "raw_greenhouse_lever.json",
-    BASE_DIR / "raw_adzuna.json",
+    OUTPUT_DIR / "raw_greenhouse_lever.json",
+    OUTPUT_DIR / "raw_adzuna.json",
 ]
 
 # When the same job appears from more than one source, prefer sources
@@ -43,11 +44,11 @@ LOCATION_FILTER = [
 ]
 # Set LOCATION_FILTER = None above to go worldwide -- nothing else changes.
 
-MERGED_RAW_SNAPSHOT = BASE_DIR / "merged_raw_snapshot.json"  # for diffing only
-LATEST_FILE = BASE_DIR / "flutter_jobs_latest.json"          # filtered, public
-CSV_FILE = BASE_DIR / "flutter_jobs.csv"
-NEW_FILE = BASE_DIR / "newly_posted.json"
-CLOSED_FILE = BASE_DIR / "closed_since_last_run.json"
+MERGED_RAW_SNAPSHOT = OUTPUT_DIR / "merged_raw_snapshot.json"  # for diffing only
+LATEST_FILE = OUTPUT_DIR / "flutter_jobs_latest.json"          # filtered, public
+CSV_FILE = OUTPUT_DIR / "flutter_jobs.csv"
+NEW_FILE = OUTPUT_DIR / "newly_posted.json"
+CLOSED_FILE = OUTPUT_DIR / "closed_since_last_run.json"
 
 
 def load_raw_sources() -> list[dict]:
@@ -153,7 +154,7 @@ def main():
     print(f"\nDone. {len(current_jobs)} active India-tagged Flutter posting(s).")
     print(f"  {len(new_jobs)} newly posted since last merge.")
     print(f"  {len(closed_jobs)} closed since last merge.")
-    print(f"Files written to {BASE_DIR}/")
+    print(f"Files written to {OUTPUT_DIR}/")
 
 
 if __name__ == "__main__":

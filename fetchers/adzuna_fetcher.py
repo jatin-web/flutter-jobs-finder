@@ -35,7 +35,8 @@ from pathlib import Path
 
 import requests
 
-OUT_DIR = Path(__file__).parent.parent
+PROJECT_ROOT = Path(__file__).parent.parent
+OUTPUT_DIR = PROJECT_ROOT / "output"
 
 
 def _load_dotenv(path: Path) -> None:
@@ -52,7 +53,7 @@ def _load_dotenv(path: Path) -> None:
         os.environ.setdefault(key.strip(), value.strip())
 
 
-_load_dotenv(OUT_DIR / ".env")
+_load_dotenv(PROJECT_ROOT / ".env")
 
 APP_ID = os.environ.get("ADZUNA_APP_ID")
 APP_KEY = os.environ.get("ADZUNA_APP_KEY")
@@ -69,7 +70,7 @@ FLUTTER_KEYWORDS = re.compile(r"\bflutter\b|\bdart\b", re.IGNORECASE)
 REQUEST_TIMEOUT = 15
 SLEEP_BETWEEN_REQUESTS = 0.5
 
-RAW_OUTPUT_FILE = OUT_DIR / "raw_adzuna.json"
+RAW_OUTPUT_FILE = OUTPUT_DIR / "raw_adzuna.json"
 
 
 def fetch_adzuna_page(page: int) -> list[dict]:

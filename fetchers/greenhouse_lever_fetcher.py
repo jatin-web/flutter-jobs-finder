@@ -54,8 +54,8 @@ HEADERS = {"User-Agent": "flutter-job-finder/2.0 (personal project)"}
 REQUEST_TIMEOUT = 15
 SLEEP_BETWEEN_REQUESTS = 0.4
 
-OUT_DIR = Path(__file__).parent.parent
-RAW_OUTPUT_FILE = OUT_DIR / "raw_greenhouse_lever.json"
+OUTPUT_DIR = Path(__file__).parent.parent / "output"
+RAW_OUTPUT_FILE = OUTPUT_DIR / "raw_greenhouse_lever.json"
 
 
 def fetch_greenhouse(company_slug: str) -> list[dict]:
