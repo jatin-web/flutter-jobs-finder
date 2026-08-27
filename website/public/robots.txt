@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jatin-web.github.io/flutter-jobs-finder/sitemap.xml
