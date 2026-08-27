@@ -1,11 +1,47 @@
 [
   {
-    "source": "lever",
-    "company": "jobgether",
+    "source": "adzuna",
+    "company": "Jobgether",
     "title": "Senior Mobile Engineer (Flutter)",
     "location": "India",
-    "url": "https://jobs.lever.co/jobgether/04db16ae-6f98-449d-8815-ba44451a8320",
-    "posted_date": "1787313699553",
-    "job_id": "04db16ae-6f98-449d-8815-ba44451a8320"
+    "url": "https://www.adzuna.in/details/5853705451?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-08-23T20:56:43Z",
+    "job_id": "5853705451"
+  },
+  {
+    "source": "adzuna",
+    "company": "Acme Services Private Limited",
+    "title": "Lead Flutter Developer  Node 7 to 9",
+    "location": "Yerwada, Pune",
+    "url": "https://www.adzuna.in/details/5845374533?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-08-17T23:34:53Z",
+    "job_id": "5845374533"
+  },
+  {
+    "source": "adzuna",
+    "company": "MAXGEN TECHNOLOGIES PRIVATE LIMITED",
+    "title": "Flutter Internship At Ahmedabad",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5823128285?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-08-01T06:46:40Z",
+    "job_id": "5823128285"
+  },
+  {
+    "source": "adzuna",
+    "company": "Cognizant",
+    "title": "Business Analyst",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5822992915?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-08-01T05:33:42Z",
+    "job_id": "5822992915"
+  },
+  {
+    "source": "adzuna",
+    "company": "Hirestar job Bank",
+    "title": "Flutter Engineer",
+    "location": "Kochi, Ernakulam",
+    "url": "https://www.adzuna.in/details/5822021265?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-07-31T10:43:22Z",
+    "job_id": "5822021265"
   }
 ]
