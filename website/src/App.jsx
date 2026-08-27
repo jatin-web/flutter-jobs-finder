@@ -96,6 +96,7 @@ export default function App() {
     : null
 
   return (
+    <>
     <div className="min-h-screen bg-gradient-to-b from-sky-50 via-white to-white dark:from-slate-950 dark:via-slate-950 dark:to-slate-950">
       <header className="border-b border-slate-200/70 bg-white/70 backdrop-blur-md dark:border-slate-800 dark:bg-slate-950/70 sticky top-0 z-10">
         <div className="mx-auto max-w-6xl px-4 py-5 sm:px-6">
@@ -187,10 +188,16 @@ export default function App() {
             </div>
           </>
         )}
-      </main>
 
-      <Footer mostRecentPosted={mostRecentPosted} />
+        {mostRecentPosted && (
+          <p className="mt-6 text-center text-xs text-slate-400 dark:text-slate-600">
+            Newest listing posted {mostRecentPosted}
+          </p>
+        )}
+      </main>
     </div>
+    <Footer />
+    </>
   )
 }
 

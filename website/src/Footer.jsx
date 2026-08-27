@@ -48,7 +48,7 @@ function LinkPill({ href, icon, label, external }) {
   )
 }
 
-export default function Footer({ mostRecentPosted }) {
+export default function Footer() {
   const year = new Date().getFullYear()
 
   return (
@@ -59,7 +59,7 @@ export default function Footer({ mostRecentPosted }) {
             <img
               src={profilePhoto}
               alt="Jatin Saini"
-              className="h-20 w-20 rounded-full object-cover ring-4 ring-white shadow-md dark:ring-slate-900"
+              className="h-20 w-20 rounded-full object-cover ring-2 ring-slate-300 ring-offset-2 ring-offset-white shadow-sm dark:ring-slate-600 dark:ring-offset-slate-950"
             />
             <div className="text-left">
               <p className="text-lg font-semibold text-slate-800 dark:text-slate-100">Jatin Saini</p>
@@ -91,11 +91,6 @@ export default function Footer({ mostRecentPosted }) {
               Flutter &amp; Dart developer roles aggregated from Greenhouse, Lever &amp; Adzuna, refreshed
               automatically every 6 hours.
             </p>
-            {mostRecentPosted && (
-              <p className="mt-3 text-xs text-slate-400 dark:text-slate-600">
-                Newest listing posted {mostRecentPosted}
-              </p>
-            )}
           </div>
         </div>
 
