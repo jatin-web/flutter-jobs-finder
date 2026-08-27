@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import JobCard from './JobCard.jsx'
 import Footer from './Footer.jsx'
+import DevBadge from './DevBadge.jsx'
 
 const SOURCES = ['all', 'greenhouse', 'lever', 'adzuna']
 
@@ -257,6 +258,7 @@ export default function App() {
       </main>
     </div>
     <Footer />
+    <DevBadge />
     </>
   )
 }
