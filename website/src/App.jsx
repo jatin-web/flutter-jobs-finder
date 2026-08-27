@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import JobCard from './JobCard.jsx'
+import Footer from './Footer.jsx'
 
 const SOURCES = ['all', 'greenhouse', 'lever', 'adzuna']
 
@@ -188,9 +189,7 @@ export default function App() {
         )}
       </main>
 
-      <footer className="mx-auto max-w-6xl px-4 pb-10 pt-4 text-center text-xs text-slate-400 dark:text-slate-600 sm:px-6">
-        {mostRecentPosted ? `Newest listing posted ${mostRecentPosted}` : ''}
-      </footer>
+      <Footer mostRecentPosted={mostRecentPosted} />
     </div>
   )
 }
