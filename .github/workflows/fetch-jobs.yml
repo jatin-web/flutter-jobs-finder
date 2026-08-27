@@ -1,0 +1,65 @@
+name: Fetch job listings
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run fetchers and merge
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+        run: |
+          python3 fetchers/greenhouse_lever_fetcher.py
+          python3 fetchers/adzuna_fetcher.py
+          python3 merge_and_filter.py
+
+      - name: Stash freshly generated output
+        run: |
+          mkdir -p /tmp/new-output
+          cp -r output/. /tmp/new-output/
+
+      - name: Commit to job-data branch (only if data changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Discard the local main-branch changes from running the fetchers
+          # above -- the data we care about is already saved to /tmp.
+          git reset --hard HEAD
+
+          git fetch origin job-data:job-data
+          git checkout job-data
+
+          rm -rf output
+          mkdir -p output
+          cp -r /tmp/new-output/. output/
+
+          git add output/
+          if git diff --cached --quiet; then
+            echo "No changes to job data -- skipping commit."
+            exit 0
+          fi
+
+          git commit -m "Update job data - $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push origin job-data

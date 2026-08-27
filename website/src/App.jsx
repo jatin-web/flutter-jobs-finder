@@ -5,9 +5,11 @@ const SOURCES = ['all', 'greenhouse', 'lever', 'adzuna']
 
 // In prod the deployed site fetches straight from GitHub, so new job data
 // shows up the instant the cron job commits -- no rebuild/redeploy needed.
+// Data lives on the `job-data` branch (bot-only commits from the cron job),
+// kept separate from `main` (code) so the commit history stays clean.
 // In dev we use the local copies synced from ../output/ (see scripts/sync-data.mjs)
 // so `npm run dev` works before anything's pushed.
-const RAW_BASE = 'https://raw.githubusercontent.com/jatin-web/flutter-jobs-finder/main/output/'
+const RAW_BASE = 'https://raw.githubusercontent.com/jatin-web/flutter-jobs-finder/job-data/output/'
 const DATA_URLS = import.meta.env.DEV
   ? {
       jobs: `${import.meta.env.BASE_URL}data/jobs.json`,
