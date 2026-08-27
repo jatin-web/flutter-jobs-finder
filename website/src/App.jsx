@@ -3,6 +3,23 @@ import JobCard from './JobCard.jsx'
 
 const SOURCES = ['all', 'greenhouse', 'lever', 'adzuna']
 
+// In prod the deployed site fetches straight from GitHub, so new job data
+// shows up the instant the cron job commits -- no rebuild/redeploy needed.
+// In dev we use the local copies synced from ../output/ (see scripts/sync-data.mjs)
+// so `npm run dev` works before anything's pushed.
+const RAW_BASE = 'https://raw.githubusercontent.com/jatin-web/flutter-jobs-finder/main/output/'
+const DATA_URLS = import.meta.env.DEV
+  ? {
+      jobs: `${import.meta.env.BASE_URL}data/jobs.json`,
+      newly: `${import.meta.env.BASE_URL}data/newly_posted.json`,
+      closed: `${import.meta.env.BASE_URL}data/closed_since_last_run.json`,
+    }
+  : {
+      jobs: `${RAW_BASE}flutter_jobs_latest.json`,
+      newly: `${RAW_BASE}newly_posted.json`,
+      closed: `${RAW_BASE}closed_since_last_run.json`,
+    }
+
 function useJobsData() {
   const [state, setState] = useState({ loading: true, error: null, jobs: [], newIds: new Set(), meta: null })
 
@@ -10,15 +27,24 @@ function useJobsData() {
     let cancelled = false
     async function load() {
       try {
-        const base = import.meta.env.BASE_URL
-        const [jobsRes, newlyRes, metaRes] = await Promise.all([
-          fetch(`${base}data/jobs.json`),
-          fetch(`${base}data/newly_posted.json`),
-          fetch(`${base}data/meta.json`),
+        const [jobsRes, newlyRes, closedRes] = await Promise.all([
+          fetch(DATA_URLS.jobs),
+          fetch(DATA_URLS.newly),
+          fetch(DATA_URLS.closed),
         ])
-        const [jobs, newly, meta] = await Promise.all([jobsRes.json(), newlyRes.json(), metaRes.json()])
+        const [jobs, newly, closed] = await Promise.all([jobsRes.json(), newlyRes.json(), closedRes.json()])
         if (cancelled) return
         const newIds = new Set(newly.map((j) => j.url))
+        const mostRecentPosted = jobs.reduce((max, j) => {
+          const t = new Date(j.posted_date).getTime()
+          return Number.isNaN(t) ? max : Math.max(max, t)
+        }, 0)
+        const meta = {
+          totalCount: jobs.length,
+          newCount: newly.length,
+          closedCount: closed.length,
+          mostRecentPosted: mostRecentPosted || null,
+        }
         setState({ loading: false, error: null, jobs, newIds, meta })
       } catch (err) {
         if (!cancelled) setState((s) => ({ ...s, loading: false, error: err.message }))
@@ -57,8 +83,8 @@ export default function App() {
     return result
   }, [jobs, query, source, sortBy])
 
-  const generatedAt = meta?.generatedAt
-    ? new Date(meta.generatedAt).toLocaleString('en-IN', {
+  const mostRecentPosted = meta?.mostRecentPosted
+    ? new Date(meta.mostRecentPosted).toLocaleString('en-IN', {
         day: 'numeric',
         month: 'short',
         hour: 'numeric',
@@ -161,7 +187,7 @@ export default function App() {
       </main>
 
       <footer className="mx-auto max-w-6xl px-4 pb-10 pt-4 text-center text-xs text-slate-400 dark:text-slate-600 sm:px-6">
-        {generatedAt ? `Last updated ${generatedAt}` : ''}
+        {mostRecentPosted ? `Newest listing posted ${mostRecentPosted}` : ''}
       </footer>
     </div>
   )
