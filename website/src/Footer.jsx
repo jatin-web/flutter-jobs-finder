@@ -53,7 +53,7 @@ export default function Footer() {
 
   return (
     <footer className="border-t border-slate-200/70 bg-white/70 dark:border-slate-800 dark:bg-slate-950/70">
-      <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
+      <div className="mx-auto max-w-6xl px-4 pb-12 pt-16 sm:px-6 sm:pt-20">
         <div className="flex flex-col items-center gap-10 sm:flex-row sm:items-center sm:justify-between sm:gap-8">
           <div className="flex items-center gap-5">
             <img
@@ -93,8 +93,10 @@ export default function Footer() {
             </p>
           </div>
         </div>
+      </div>
 
-        <div className="mt-12 border-t border-slate-200/70 pt-6 text-center text-xs text-slate-400 dark:border-slate-800 dark:text-slate-600">
+      <div className="border-t border-slate-200/70 dark:border-slate-800">
+        <div className="mx-auto max-w-6xl px-4 py-6 text-center text-xs text-slate-400 sm:px-6 sm:py-8 dark:text-slate-600">
           © {year} Jatin Saini. Built with React &amp; Tailwind CSS.
         </div>
       </div>

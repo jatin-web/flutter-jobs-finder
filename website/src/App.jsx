@@ -23,6 +23,35 @@ const DATA_URLS = import.meta.env.DEV
       closed: `${RAW_BASE}closed_since_last_run.json`,
     }
 
+const COMMITS_API =
+  'https://api.github.com/repos/jatin-web/flutter-jobs-finder/commits?sha=job-data&path=output&per_page=1'
+
+// "New" / "Closed" are diffed against whatever was last committed to the
+// job-data branch -- and that only happens when the job set actually
+// changes, not on a fixed schedule. So we fetch the real commit timestamp
+// rather than claiming a fixed interval (e.g. "last 6 hours") that would
+// often be wrong.
+function useDataFreshness() {
+  const [updatedAt, setUpdatedAt] = useState(null)
+
+  useEffect(() => {
+    let cancelled = false
+    fetch(COMMITS_API)
+      .then((res) => res.json())
+      .then((commits) => {
+        if (cancelled) return
+        const date = commits?.[0]?.commit?.author?.date
+        if (date) setUpdatedAt(new Date(date))
+      })
+      .catch(() => {})
+    return () => {
+      cancelled = true
+    }
+  }, [])
+
+  return updatedAt
+}
+
 function useJobsData() {
   const [state, setState] = useState({ loading: true, error: null, jobs: [], newIds: new Set(), meta: null })
 
@@ -38,15 +67,10 @@ function useJobsData() {
         const [jobs, newly, closed] = await Promise.all([jobsRes.json(), newlyRes.json(), closedRes.json()])
         if (cancelled) return
         const newIds = new Set(newly.map((j) => j.url))
-        const mostRecentPosted = jobs.reduce((max, j) => {
-          const t = new Date(j.posted_date).getTime()
-          return Number.isNaN(t) ? max : Math.max(max, t)
-        }, 0)
         const meta = {
           totalCount: jobs.length,
           newCount: newly.length,
           closedCount: closed.length,
-          mostRecentPosted: mostRecentPosted || null,
         }
         setState({ loading: false, error: null, jobs, newIds, meta })
       } catch (err) {
@@ -64,6 +88,7 @@ function useJobsData() {
 
 export default function App() {
   const { loading, error, jobs, newIds, meta } = useJobsData()
+  const dataUpdatedAt = useDataFreshness()
   const [query, setQuery] = useState('')
   const [source, setSource] = useState('all')
   const [sortBy, setSortBy] = useState('newest')
@@ -86,8 +111,8 @@ export default function App() {
     return result
   }, [jobs, query, source, sortBy])
 
-  const mostRecentPosted = meta?.mostRecentPosted
-    ? new Date(meta.mostRecentPosted).toLocaleString('en-IN', {
+  const dataUpdatedAtLabel = dataUpdatedAt
+    ? dataUpdatedAt.toLocaleString('en-IN', {
         day: 'numeric',
         month: 'short',
         hour: 'numeric',
@@ -98,7 +123,7 @@ export default function App() {
   return (
     <>
     <div className="min-h-screen bg-gradient-to-b from-sky-50 via-white to-white dark:from-slate-950 dark:via-slate-950 dark:to-slate-950">
-      <header className="border-b border-slate-200/70 bg-white/70 backdrop-blur-md dark:border-slate-800 dark:bg-slate-950/70 sticky top-0 z-10">
+      <header>
         <div className="mx-auto max-w-6xl px-4 py-5 sm:px-6">
           <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
             <div>
@@ -109,17 +134,42 @@ export default function App() {
                 Flutter &amp; Dart developer roles, aggregated from Greenhouse, Lever &amp; Adzuna.
               </p>
             </div>
-            <div className="flex gap-2 text-center">
-              <Stat label="Active" value={meta?.totalCount ?? '—'} />
-              <Stat label="New" value={meta?.newCount ?? '—'} accent />
-              <Stat label="Closed" value={meta?.closedCount ?? '—'} />
+            <div>
+              <div className="grid grid-cols-3 divide-x divide-slate-200 overflow-hidden rounded-xl border border-slate-200 bg-white text-center dark:divide-slate-800 dark:border-slate-800 dark:bg-slate-900">
+                <Stat label="Active" value={meta?.totalCount ?? '—'} />
+                <Stat
+                  label="New"
+                  value={meta?.newCount ?? '—'}
+                  accent
+                  pulse
+                  title={
+                    dataUpdatedAtLabel
+                      ? `Added since data was last refreshed on ${dataUpdatedAtLabel}`
+                      : 'Added since the last data refresh'
+                  }
+                />
+                <Stat
+                  label="Closed"
+                  value={meta?.closedCount ?? '—'}
+                  title={
+                    dataUpdatedAtLabel
+                      ? `No longer listed as of the last refresh, on ${dataUpdatedAtLabel}`
+                      : 'No longer listed as of the last data refresh'
+                  }
+                />
+              </div>
+              {dataUpdatedAtLabel && (
+                <p className="mt-1.5 text-center text-[11px] text-slate-400 dark:text-slate-500 sm:text-right">
+                  New/closed since data refreshed {dataUpdatedAtLabel}
+                </p>
+              )}
             </div>
           </div>
         </div>
       </header>
 
-      <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
-        <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center">
+      <div className="sticky top-0 z-10 bg-white/80 backdrop-blur-md dark:bg-slate-950/80">
+        <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-3 sm:flex-row sm:items-center sm:px-6">
           <div className="relative flex-1">
             <input
               type="text"
@@ -129,16 +179,31 @@ export default function App() {
               className="w-full rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm text-slate-900 shadow-sm outline-none placeholder:text-slate-400 focus:border-sky-400 focus:ring-2 focus:ring-sky-100 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-100 dark:placeholder:text-slate-500 dark:focus:ring-sky-900/40"
             />
           </div>
-          <select
-            value={sortBy}
-            onChange={(e) => setSortBy(e.target.value)}
-            className="rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm text-slate-700 shadow-sm outline-none focus:border-sky-400 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-200"
-          >
-            <option value="newest">Newest first</option>
-            <option value="company">Company A–Z</option>
-          </select>
+          <div className="relative">
+            <select
+              value={sortBy}
+              onChange={(e) => setSortBy(e.target.value)}
+              className="appearance-none rounded-xl border border-slate-200 bg-white py-2.5 pl-3 pr-9 text-sm text-slate-700 shadow-sm outline-none focus:border-sky-400 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-200"
+            >
+              <option value="newest">Newest first</option>
+              <option value="company">Company A–Z</option>
+            </select>
+            <svg
+              viewBox="0 0 20 20"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth={1.8}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="pointer-events-none absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400 dark:text-slate-500"
+            >
+              <path d="m5 7.5 5 5 5-5" />
+            </svg>
+          </div>
         </div>
+      </div>
 
+      <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
         <div className="mb-6 flex flex-wrap gap-2">
           {SOURCES.map((s) => (
             <button
@@ -189,11 +254,6 @@ export default function App() {
           </>
         )}
 
-        {mostRecentPosted && (
-          <p className="mt-6 text-center text-xs text-slate-400 dark:text-slate-600">
-            Newest listing posted {mostRecentPosted}
-          </p>
-        )}
       </main>
     </div>
     <Footer />
@@ -201,10 +261,16 @@ export default function App() {
   )
 }
 
-function Stat({ label, value, accent }) {
+function Stat({ label, value, accent, pulse, title }) {
   return (
-    <div className="min-w-[64px] rounded-xl border border-slate-200 bg-white px-3 py-2 dark:border-slate-800 dark:bg-slate-900">
-      <div className={`text-lg font-bold ${accent ? 'text-sky-600 dark:text-sky-400' : 'text-slate-900 dark:text-white'}`}>
+    <div className="min-w-[64px] px-3 py-2" title={title}>
+      <div className={`flex items-center justify-center gap-1.5 text-lg font-bold ${accent ? 'text-sky-600 dark:text-sky-400' : 'text-slate-900 dark:text-white'}`}>
+        {pulse && (
+          <span className="relative flex h-2 w-2">
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-sky-400 opacity-75" />
+            <span className="relative inline-flex h-2 w-2 rounded-full bg-sky-500" />
+          </span>
+        )}
         {value}
       </div>
       <div className="text-[11px] uppercase tracking-wide text-slate-400 dark:text-slate-500">{label}</div>
