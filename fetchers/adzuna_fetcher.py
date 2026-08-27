@@ -72,6 +72,17 @@ SLEEP_BETWEEN_REQUESTS = 0.5
 
 RAW_OUTPUT_FILE = OUTPUT_DIR / "raw_adzuna.json"
 
+_CREDENTIAL_PATTERN = re.compile(r"(app_id|app_key)=[^&\s]+", re.IGNORECASE)
+
+
+def _redact(text: str) -> str:
+    """Strip app_id/app_key values out of a string before it's ever logged.
+    requests/urllib3 embed the full request URL (query string included) in
+    connection-error messages, and this repo's CI logs are public -- so any
+    text derived from a request exception or error response must go through
+    this before hitting print()."""
+    return _CREDENTIAL_PATTERN.sub(r"\1=***", text)
+
 
 def fetch_adzuna_page(page: int) -> list[dict]:
     url = f"https://api.adzuna.com/v1/api/jobs/{COUNTRY_CODE}/search/{page}"
@@ -87,11 +98,11 @@ def fetch_adzuna_page(page: int) -> list[dict]:
     try:
         resp = requests.get(url, params=params, timeout=REQUEST_TIMEOUT)
         if resp.status_code != 200:
-            print(f"  [adzuna] page {page}: HTTP {resp.status_code} -- {resp.text[:200]}")
+            print(f"  [adzuna] page {page}: HTTP {resp.status_code} -- {_redact(resp.text[:200])}")
             return []
         data = resp.json()
     except requests.RequestException as e:
-        print(f"  [adzuna] page {page}: request failed ({e}), skipping")
+        print(f"  [adzuna] page {page}: request failed ({_redact(str(e))}), skipping")
         return []
 
     jobs = []

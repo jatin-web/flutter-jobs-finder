@@ -24,18 +24,22 @@ function timeAgo(dateStr) {
   return date.toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })
 }
 
+// Job data comes from third-party APIs (Adzuna/Greenhouse/Lever) -- guard
+// against a javascript: URI ever ending up in `url` and being clicked.
+const isSafeUrl = (url) => typeof url === 'string' && /^https?:\/\//i.test(url)
+
 export default function JobCard({ job, isNew }) {
   const sourceStyle =
     SOURCE_STYLES[job.source] ?? {
       label: job.source,
       className: 'bg-slate-500/10 text-slate-600 ring-slate-500/20 dark:text-slate-300',
     }
+  const safeUrl = isSafeUrl(job.url)
 
   return (
     <a
-      href={job.url}
-      target="_blank"
-      rel="noreferrer"
+      href={safeUrl ? job.url : undefined}
+      {...(safeUrl ? { target: '_blank', rel: 'noreferrer' } : {})}
       className="group relative flex flex-col gap-3 rounded-2xl border border-slate-200/80 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-sky-300 hover:shadow-lg dark:border-slate-800 dark:bg-slate-900 dark:hover:border-sky-700"
     >
       {isNew && (
