@@ -1,6 +1,24 @@
 [
   {
     "source": "adzuna",
+    "company": "Ti Steps",
+    "title": "Flutter Developer",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5859122845?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-08-28T07:37:38Z",
+    "job_id": "5859122845"
+  },
+  {
+    "source": "adzuna",
+    "company": "Robosoft Technologies",
+    "title": "Flutter Developer",
+    "location": "Navi Mumbai, Maharashtra",
+    "url": "https://www.adzuna.in/details/5859122654?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-08-28T07:37:33Z",
+    "job_id": "5859122654"
+  },
+  {
+    "source": "adzuna",
     "company": "Trigent Software Private Limited",
     "title": "Mobile Developer",
     "location": "India",
@@ -103,7 +121,7 @@
     "company": "Softs Solution Service",
     "title": "Sales Executive",
     "location": "Ahmedabad, Gujarat",
-    "url": "https://www.adzuna.in/land/ad/5850983444?se=Lg4GuV-i8RGJ35lZBgd8oQ&utm_medium=api&utm_source=7559f673&v=B0CE4CCBC1E078F815DBE1166CBEAAEF2AA6597D",
+    "url": "https://www.adzuna.in/land/ad/5850983444?se=BtDjhLyi8RGih_lFV7r2TA&utm_medium=api&utm_source=7559f673&v=B0CE4CCBC1E078F815DBE1166CBEAAEF2AA6597D",
     "posted_date": "2026-08-21T17:26:37Z",
     "job_id": "5850983444"
   },
@@ -244,15 +262,6 @@
   },
   {
     "source": "adzuna",
-    "company": "Edwards Lifesciences",
-    "title": "Senior Flutter Developer, IT",
-    "location": "Pune, Maharashtra",
-    "url": "https://www.adzuna.in/details/5842770568?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-08-15T11:37:47Z",
-    "job_id": "5842770568"
-  },
-  {
-    "source": "adzuna",
     "company": "HARJAI COMPUTERS PRIVATE LIMITED",
     "title": "Flutter developer",
     "location": "Mumbai, Maharashtra",
@@ -283,7 +292,7 @@
     "company": "Zartek Technologies",
     "title": "Business Development Executive \u2014 Software Sales",
     "location": "Kochi, Ernakulam",
-    "url": "https://www.adzuna.in/land/ad/5841755331?se=SkfnuV-i8RG9Pc28-W9g6w&utm_medium=api&utm_source=7559f673&v=A0A6D42F0ECCFA6F20E23DA2B3AF702231F02E6E",
+    "url": "https://www.adzuna.in/land/ad/5841755331?se=mv0Chryi8RGT7oi0RhmwUg&utm_medium=api&utm_source=7559f673&v=A0A6D42F0ECCFA6F20E23DA2B3AF702231F02E6E",
     "posted_date": "2026-08-14T16:34:28Z",
     "job_id": "5841755331"
   },
