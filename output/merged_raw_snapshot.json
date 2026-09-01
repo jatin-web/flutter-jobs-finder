@@ -30,15 +30,6 @@
     "source": "greenhouse",
     "company": "moniepoint",
     "title": "Mobile Architect (POS Terminal)",
-    "location": "Remote, Bangalore",
-    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4378148101",
-    "posted_date": "2026-07-20T13:07:51-04:00",
-    "job_id": "4378148101"
-  },
-  {
-    "source": "greenhouse",
-    "company": "moniepoint",
-    "title": "Mobile Architect (POS Terminal)",
     "location": "Remote, Poland; Remote, Spain",
     "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4932688101",
     "posted_date": "2026-07-20T13:07:53-04:00",
@@ -47,11 +38,11 @@
   {
     "source": "greenhouse",
     "company": "moniepoint",
-    "title": "Senior Mobile Engineer",
+    "title": "Mobile Architect (POS Terminal)",
     "location": "Remote, Bangalore",
-    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4644187101",
-    "posted_date": "2026-08-20T11:29:23-04:00",
-    "job_id": "4644187101"
+    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4378148101",
+    "posted_date": "2026-07-20T13:07:51-04:00",
+    "job_id": "4378148101"
   },
   {
     "source": "greenhouse",
@@ -70,6 +61,69 @@
     "url": "https://jobs.lever.co/idt/027b0693-41d8-4262-a0de-26fd2b186d28",
     "posted_date": "1782473261232",
     "job_id": "027b0693-41d8-4262-a0de-26fd2b186d28"
+  },
+  {
+    "source": "adzuna",
+    "company": "Synterra IT Solutions Pvt. Ltd",
+    "title": "Senior Flutter Engineer",
+    "location": "India",
+    "url": "https://www.adzuna.in/land/ad/5864439038?se=dLyiNfSl8RGGYI73n1NTOA&utm_medium=api&utm_source=7559f673&v=1D15A8A5629AC929A993C1451747D5DE3FCDD212",
+    "posted_date": "2026-09-01T16:22:51Z",
+    "job_id": "5864439038"
+  },
+  {
+    "source": "adzuna",
+    "company": "Jellyfish Technologies",
+    "title": "Mobile Application Developer - Flutter",
+    "location": "Noida, Ghaziabad",
+    "url": "https://www.adzuna.in/land/ad/5864435823?se=dLyiNfSl8RGGYI73n1NTOA&utm_medium=api&utm_source=7559f673&v=CF5EE02AE2D78753A7CC98823DCD3AAFB00AC079",
+    "posted_date": "2026-09-01T16:22:24Z",
+    "job_id": "5864435823"
+  },
+  {
+    "source": "adzuna",
+    "company": "HDFC Bank",
+    "title": "Lead Frontend Developer - Flutter",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/land/ad/5864433186?se=dLyiNfSl8RGGYI73n1NTOA&utm_medium=api&utm_source=7559f673&v=DA1CE669E1FC9A4472E918877C134E064948A85B",
+    "posted_date": "2026-09-01T16:22:01Z",
+    "job_id": "5864433186"
+  },
+  {
+    "source": "adzuna",
+    "company": "Hindustan Drone Services",
+    "title": "Flutter Developer - Mid Level",
+    "location": "Hyderabad, Telangana",
+    "url": "https://www.adzuna.in/land/ad/5864432264?se=dLyiNfSl8RGGYI73n1NTOA&utm_medium=api&utm_source=7559f673&v=CCF474DBCA9803BCCA6EEEE86C58779326F919A8",
+    "posted_date": "2026-09-01T16:21:52Z",
+    "job_id": "5864432264"
+  },
+  {
+    "source": "adzuna",
+    "company": "CareMonitor",
+    "title": "Flutter & Mobile Application Developer",
+    "location": "India",
+    "url": "https://www.adzuna.in/land/ad/5864426833?se=dLyiNfSl8RGGYI73n1NTOA&utm_medium=api&utm_source=7559f673&v=7E38F016D7CBC7A7185DF097BA07A098ECE1F97D",
+    "posted_date": "2026-09-01T16:20:53Z",
+    "job_id": "5864426833"
+  },
+  {
+    "source": "adzuna",
+    "company": "Tamara",
+    "title": "Mobile Engineer - Flutter",
+    "location": "India",
+    "url": "https://www.adzuna.in/land/ad/5864425522?se=dLyiNfSl8RGGYI73n1NTOA&utm_medium=api&utm_source=7559f673&v=D78E16EF874CBEA0FD7C0C6EA40FBAE2DFBC1D0B",
+    "posted_date": "2026-09-01T16:20:35Z",
+    "job_id": "5864425522"
+  },
+  {
+    "source": "adzuna",
+    "company": "CGPEY International Private",
+    "title": "Full Stack Developer Bhilai India",
+    "location": "Raipur, Chhattisgarh",
+    "url": "https://www.adzuna.in/details/5863635955?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-09-01T07:03:12Z",
+    "job_id": "5863635955"
   },
   {
     "source": "adzuna",
@@ -511,50 +565,5 @@
     "url": "https://www.adzuna.in/details/5830623462?utm_medium=api&utm_source=7559f673",
     "posted_date": "2026-08-06T20:49:44Z",
     "job_id": "5830623462"
-  },
-  {
-    "source": "adzuna",
-    "company": "Innowrap",
-    "title": "Associate Flutter Developer",
-    "location": "Mumbai, Maharashtra",
-    "url": "https://www.adzuna.in/details/5829884841?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-08-06T07:30:01Z",
-    "job_id": "5829884841"
-  },
-  {
-    "source": "adzuna",
-    "company": "Accenture",
-    "title": "Custom Software Engineer",
-    "location": "India",
-    "url": "https://www.adzuna.in/details/5829191597?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-08-05T20:51:00Z",
-    "job_id": "5829191597"
-  },
-  {
-    "source": "adzuna",
-    "company": "Way2agribusines",
-    "title": "Intern Ai Software Engineer Bengaluru India",
-    "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/details/5827200174?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-08-04T06:48:40Z",
-    "job_id": "5827200174"
-  },
-  {
-    "source": "adzuna",
-    "company": "Spectrum Softtech Solutions",
-    "title": "FLUTTER DEVELOPER CUM TRAINER Kochi",
-    "location": "Kochi, Ernakulam",
-    "url": "https://www.adzuna.in/details/5827199348?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-08-04T06:48:34Z",
-    "job_id": "5827199348"
-  },
-  {
-    "source": "adzuna",
-    "company": "XenAI Tech",
-    "title": "Software Developer (Web, Mobile, Python, React & Full Stack)",
-    "location": "Puducherry, India",
-    "url": "https://www.adzuna.in/details/5826713386?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-08-03T21:35:02Z",
-    "job_id": "5826713386"
   }
 ]
