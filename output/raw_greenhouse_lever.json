@@ -3,19 +3,19 @@
     "source": "greenhouse",
     "company": "springhealth66",
     "title": "Staff Software Engineer I, Mobile",
-    "location": "New York (Hybrid)",
-    "url": "https://job-boards.greenhouse.io/springhealth66/jobs/4727964005",
-    "posted_date": "2026-08-27T14:00:42-04:00",
-    "job_id": "4727964005"
+    "location": "San Francisco, CA (Hybrid)",
+    "url": "https://job-boards.greenhouse.io/springhealth66/jobs/4727968005",
+    "posted_date": "2026-08-27T14:00:44-04:00",
+    "job_id": "4727968005"
   },
   {
     "source": "greenhouse",
     "company": "springhealth66",
     "title": "Staff Software Engineer I, Mobile",
-    "location": "San Francisco, CA (Hybrid)",
-    "url": "https://job-boards.greenhouse.io/springhealth66/jobs/4727968005",
-    "posted_date": "2026-08-27T14:00:44-04:00",
-    "job_id": "4727968005"
+    "location": "New York (Hybrid)",
+    "url": "https://job-boards.greenhouse.io/springhealth66/jobs/4727964005",
+    "posted_date": "2026-08-27T14:00:42-04:00",
+    "job_id": "4727964005"
   },
   {
     "source": "greenhouse",
@@ -61,5 +61,50 @@
     "url": "https://jobs.lever.co/idt/027b0693-41d8-4262-a0de-26fd2b186d28",
     "posted_date": "1782473261232",
     "job_id": "027b0693-41d8-4262-a0de-26fd2b186d28"
+  },
+  {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Analista de Desenvolvimento Mobile Flutter (vaga afirmativa PCD)",
+    "location": "Brazil",
+    "url": "https://jobs.lever.co/jobgether/dc9d5965-bc8c-4b8f-af23-75bd009b00c2",
+    "posted_date": "1788123920863",
+    "job_id": "dc9d5965-bc8c-4b8f-af23-75bd009b00c2"
+  },
+  {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Analista de Desenvolvimento Mobile Flutter Jr (vaga afirmativa PCD)",
+    "location": "Brazil",
+    "url": "https://jobs.lever.co/jobgether/5834009f-8d5d-4fd9-b9f6-5de883021983",
+    "posted_date": "1788155940822",
+    "job_id": "5834009f-8d5d-4fd9-b9f6-5de883021983"
+  },
+  {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Engenheiro de Software Fullstack Pleno (Java/Flutter)",
+    "location": "Brazil",
+    "url": "https://jobs.lever.co/jobgether/34e6b355-9a2b-4469-ae01-1df89f30c459",
+    "posted_date": "1788167948779",
+    "job_id": "34e6b355-9a2b-4469-ae01-1df89f30c459"
+  },
+  {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Engenheiro de Software Fullstack Sr (Java/Flutter)",
+    "location": "Brazil",
+    "url": "https://jobs.lever.co/jobgether/ac37efe7-58e4-45d7-9ed4-a44ca34434ff",
+    "posted_date": "1788258528594",
+    "job_id": "ac37efe7-58e4-45d7-9ed4-a44ca34434ff"
+  },
+  {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Mobile Developer - Mid level",
+    "location": "Brazil",
+    "url": "https://jobs.lever.co/jobgether/cf0cde5e-996b-4372-8c70-07b284547dd2",
+    "posted_date": "1787715706069",
+    "job_id": "cf0cde5e-996b-4372-8c70-07b284547dd2"
   }
 ]
