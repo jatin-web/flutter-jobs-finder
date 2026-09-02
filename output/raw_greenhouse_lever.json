@@ -3,19 +3,19 @@
     "source": "greenhouse",
     "company": "springhealth66",
     "title": "Staff Software Engineer I, Mobile",
-    "location": "San Francisco, CA (Hybrid)",
-    "url": "https://job-boards.greenhouse.io/springhealth66/jobs/4727968005",
-    "posted_date": "2026-08-27T14:00:44-04:00",
-    "job_id": "4727968005"
+    "location": "New York (Hybrid)",
+    "url": "https://job-boards.greenhouse.io/springhealth66/jobs/4727964005",
+    "posted_date": "2026-08-27T14:00:42-04:00",
+    "job_id": "4727964005"
   },
   {
     "source": "greenhouse",
     "company": "springhealth66",
     "title": "Staff Software Engineer I, Mobile",
-    "location": "New York (Hybrid)",
-    "url": "https://job-boards.greenhouse.io/springhealth66/jobs/4727964005",
-    "posted_date": "2026-08-27T14:00:42-04:00",
-    "job_id": "4727964005"
+    "location": "San Francisco, CA (Hybrid)",
+    "url": "https://job-boards.greenhouse.io/springhealth66/jobs/4727968005",
+    "posted_date": "2026-08-27T14:00:44-04:00",
+    "job_id": "4727968005"
   },
   {
     "source": "greenhouse",
@@ -61,5 +61,104 @@
     "url": "https://jobs.lever.co/idt/027b0693-41d8-4262-a0de-26fd2b186d28",
     "posted_date": "1782473261232",
     "job_id": "027b0693-41d8-4262-a0de-26fd2b186d28"
+  },
+  {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Analista de Desenvolvimento Mobile Flutter (vaga afirmativa PCD)",
+    "location": "Brazil",
+    "url": "https://jobs.lever.co/jobgether/dc9d5965-bc8c-4b8f-af23-75bd009b00c2",
+    "posted_date": "1788123920863",
+    "job_id": "dc9d5965-bc8c-4b8f-af23-75bd009b00c2"
+  },
+  {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Analista de Desenvolvimento Mobile Flutter Jr (vaga afirmativa PCD)",
+    "location": "Brazil",
+    "url": "https://jobs.lever.co/jobgether/5834009f-8d5d-4fd9-b9f6-5de883021983",
+    "posted_date": "1788155940822",
+    "job_id": "5834009f-8d5d-4fd9-b9f6-5de883021983"
+  },
+  {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Engenheiro de Software Fullstack Pleno (Java/Flutter)",
+    "location": "Brazil",
+    "url": "https://jobs.lever.co/jobgether/34e6b355-9a2b-4469-ae01-1df89f30c459",
+    "posted_date": "1788167948779",
+    "job_id": "34e6b355-9a2b-4469-ae01-1df89f30c459"
+  },
+  {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Engenheiro de Software Fullstack Sr (Java/Flutter)",
+    "location": "Brazil",
+    "url": "https://jobs.lever.co/jobgether/ac37efe7-58e4-45d7-9ed4-a44ca34434ff",
+    "posted_date": "1788258528594",
+    "job_id": "ac37efe7-58e4-45d7-9ed4-a44ca34434ff"
+  },
+  {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Junior Ubuntu Software Engineer",
+    "location": "Canada",
+    "url": "https://jobs.lever.co/jobgether/60bdbcf2-7d56-4f30-942e-726bb2329db9",
+    "posted_date": "1788354231217",
+    "job_id": "60bdbcf2-7d56-4f30-942e-726bb2329db9"
+  },
+  {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Junior Ubuntu Software Engineer",
+    "location": "India",
+    "url": "https://jobs.lever.co/jobgether/6b7268c2-af04-4b2a-815b-6a432bb0051d",
+    "posted_date": "1788354205130",
+    "job_id": "6b7268c2-af04-4b2a-815b-6a432bb0051d"
+  },
+  {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Junior Ubuntu Software Engineer",
+    "location": "Brazil",
+    "url": "https://jobs.lever.co/jobgether/cf712419-0f84-4265-b44c-f1b0f7af2f09",
+    "posted_date": "1788354249005",
+    "job_id": "cf712419-0f84-4265-b44c-f1b0f7af2f09"
+  },
+  {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Pessoa Desenvolvedora Flutter Pleno",
+    "location": "Brazil",
+    "url": "https://jobs.lever.co/jobgether/b5a89ded-6c3c-4908-9036-db21079befd5",
+    "posted_date": "1788313366612",
+    "job_id": "b5a89ded-6c3c-4908-9036-db21079befd5"
+  },
+  {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Web Frontend Engineer - JS, CSS, React, Flutter",
+    "location": "India",
+    "url": "https://jobs.lever.co/jobgether/28250b7a-7cc0-42fd-b0e5-ebcab34d7c8d",
+    "posted_date": "1788356940546",
+    "job_id": "28250b7a-7cc0-42fd-b0e5-ebcab34d7c8d"
+  },
+  {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Web Frontend Engineer - JS, CSS, React, Flutter",
+    "location": "Brazil",
+    "url": "https://jobs.lever.co/jobgether/3dc9fdbb-eeb3-45c9-a4f9-05767fe9ed08",
+    "posted_date": "1788356986166",
+    "job_id": "3dc9fdbb-eeb3-45c9-a4f9-05767fe9ed08"
+  },
+  {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Web Frontend Engineer - JS, CSS, React, Flutter",
+    "location": "Canada",
+    "url": "https://jobs.lever.co/jobgether/b365cf02-3cf7-4a5f-9b99-72b551999c8f",
+    "posted_date": "1788356964469",
+    "job_id": "b365cf02-3cf7-4a5f-9b99-72b551999c8f"
   }
 ]
