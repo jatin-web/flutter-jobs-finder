@@ -3,19 +3,19 @@
     "source": "greenhouse",
     "company": "springhealth66",
     "title": "Staff Software Engineer I, Mobile",
-    "location": "San Francisco, CA (Hybrid)",
-    "url": "https://job-boards.greenhouse.io/springhealth66/jobs/4727968005",
-    "posted_date": "2026-08-27T14:00:44-04:00",
-    "job_id": "4727968005"
+    "location": "New York (Hybrid)",
+    "url": "https://job-boards.greenhouse.io/springhealth66/jobs/4727964005",
+    "posted_date": "2026-08-27T14:00:42-04:00",
+    "job_id": "4727964005"
   },
   {
     "source": "greenhouse",
     "company": "springhealth66",
     "title": "Staff Software Engineer I, Mobile",
-    "location": "New York (Hybrid)",
-    "url": "https://job-boards.greenhouse.io/springhealth66/jobs/4727964005",
-    "posted_date": "2026-08-27T14:00:42-04:00",
-    "job_id": "4727964005"
+    "location": "San Francisco, CA (Hybrid)",
+    "url": "https://job-boards.greenhouse.io/springhealth66/jobs/4727968005",
+    "posted_date": "2026-08-27T14:00:44-04:00",
+    "job_id": "4727968005"
   },
   {
     "source": "greenhouse",
@@ -30,19 +30,19 @@
     "source": "greenhouse",
     "company": "moniepoint",
     "title": "Mobile Architect (POS Terminal)",
-    "location": "Remote, Bangalore",
-    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4378148101",
-    "posted_date": "2026-07-20T13:07:51-04:00",
-    "job_id": "4378148101"
+    "location": "Remote, Poland; Remote, Spain",
+    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4932688101",
+    "posted_date": "2026-07-20T13:07:53-04:00",
+    "job_id": "4932688101"
   },
   {
     "source": "greenhouse",
     "company": "moniepoint",
     "title": "Mobile Architect (POS Terminal)",
-    "location": "Remote, Poland; Remote, Spain",
-    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4932688101",
-    "posted_date": "2026-07-20T13:07:53-04:00",
-    "job_id": "4932688101"
+    "location": "Remote, Bangalore",
+    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4378148101",
+    "posted_date": "2026-07-20T13:07:51-04:00",
+    "job_id": "4378148101"
   },
   {
     "source": "greenhouse",
@@ -262,6 +262,42 @@
   },
   {
     "source": "adzuna",
+    "company": "Kagool",
+    "title": "Flutter Developer",
+    "location": "India",
+    "url": "https://www.adzuna.in/land/ad/5876872966?se=qEWmzTqs8RGCEPCwPxbzXQ&utm_medium=api&utm_source=7559f673&v=935F0C10834031F417B37D73B24AE419DD595620",
+    "posted_date": "2026-09-09T14:46:54Z",
+    "job_id": "5876872966"
+  },
+  {
+    "source": "adzuna",
+    "company": "LOGZ",
+    "title": "Mobile Application Developer",
+    "location": "Chennai, Tamil Nadu",
+    "url": "https://www.adzuna.in/land/ad/5876872188?se=qEWmzTqs8RGCEPCwPxbzXQ&utm_medium=api&utm_source=7559f673&v=36426E4AA1759125167C6886BBD77A4251185F38",
+    "posted_date": "2026-09-09T14:45:45Z",
+    "job_id": "5876872188"
+  },
+  {
+    "source": "adzuna",
+    "company": "Tipsons Group",
+    "title": "Mobile Application Developer",
+    "location": "Ahmedabad, Gujarat",
+    "url": "https://www.adzuna.in/land/ad/5876870294?se=qEWmzTqs8RGCEPCwPxbzXQ&utm_medium=api&utm_source=7559f673&v=A23ADFAFA196E48C8F86474D827CD9DC0EEFB41E",
+    "posted_date": "2026-09-09T14:44:33Z",
+    "job_id": "5876870294"
+  },
+  {
+    "source": "adzuna",
+    "company": "DGLIDE",
+    "title": "Flutter Developer",
+    "location": "India",
+    "url": "https://www.adzuna.in/land/ad/5876572800?se=qEWmzTqs8RGCEPCwPxbzXQ&utm_medium=api&utm_source=7559f673&v=06231B4E4DCC642853A3D6AAC84CAC5458A73C8D",
+    "posted_date": "2026-09-09T09:04:05Z",
+    "job_id": "5876572800"
+  },
+  {
+    "source": "adzuna",
     "company": "Yudiz Solutions",
     "title": "Flutter Developer",
     "location": "Gurgaon, Haryana",
@@ -271,10 +307,28 @@
   },
   {
     "source": "adzuna",
+    "company": "Flashoot",
+    "title": "Full Stack Developer",
+    "location": "Hyderabad, Telangana",
+    "url": "https://www.adzuna.in/land/ad/5876028969?se=qEWmzTqs8RGCEPCwPxbzXQ&utm_medium=api&utm_source=7559f673&v=F6D06CD296C3A6D718E2EE89331B83928FE10F63",
+    "posted_date": "2026-09-09T01:08:09Z",
+    "job_id": "5876028969"
+  },
+  {
+    "source": "adzuna",
+    "company": "Tata Consultancy Services",
+    "title": "Senior Dotnet Developer",
+    "location": "India",
+    "url": "https://www.adzuna.in/land/ad/5876028271?se=qEWmzTqs8RGCEPCwPxbzXQ&utm_medium=api&utm_source=7559f673&v=A84C042C47325309D942D5F3C33A550A2DD0601D",
+    "posted_date": "2026-09-09T01:07:51Z",
+    "job_id": "5876028271"
+  },
+  {
+    "source": "adzuna",
     "company": "XtraG Club Pvt. Ltd.",
     "title": "Mobile Application Developer",
     "location": "Ernakulam, Kerala",
-    "url": "https://www.adzuna.in/land/ad/5876027446?se=RlXglvir8RGw4d6epSviNQ&utm_medium=api&utm_source=7559f673&v=A5D7030FDE9B8C822EB912D186C8E9E6F26B8BF4",
+    "url": "https://www.adzuna.in/land/ad/5876027446?se=qEWmzTqs8RGCEPCwPxbzXQ&utm_medium=api&utm_source=7559f673&v=A5D7030FDE9B8C822EB912D186C8E9E6F26B8BF4",
     "posted_date": "2026-09-09T01:07:32Z",
     "job_id": "5876027446"
   },
@@ -283,25 +337,16 @@
     "company": "ANDPAYMENTS",
     "title": "Mobile Engineer",
     "location": "Noida, Ghaziabad",
-    "url": "https://www.adzuna.in/land/ad/5876027187?se=RlXglvir8RGw4d6epSviNQ&utm_medium=api&utm_source=7559f673&v=C7BBEDFA4E84115F3D6A02384F6C282143FE9B44",
+    "url": "https://www.adzuna.in/land/ad/5876027187?se=qEWmzTqs8RGCEPCwPxbzXQ&utm_medium=api&utm_source=7559f673&v=C7BBEDFA4E84115F3D6A02384F6C282143FE9B44",
     "posted_date": "2026-09-09T01:07:25Z",
     "job_id": "5876027187"
-  },
-  {
-    "source": "adzuna",
-    "company": "Tata Consultancy Services",
-    "title": "Dotnet Developer",
-    "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/land/ad/5876027146?se=RlXglvir8RGw4d6epSviNQ&utm_medium=api&utm_source=7559f673&v=121022C96D3E5819AE0D4C88E5ED2C6421537F79",
-    "posted_date": "2026-09-09T01:07:24Z",
-    "job_id": "5876027146"
   },
   {
     "source": "adzuna",
     "company": "Taglynk",
     "title": "Senior Software Engineer - IOS",
     "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/land/ad/5876026637?se=RlXglvir8RGw4d6epSviNQ&utm_medium=api&utm_source=7559f673&v=3160605F810FB71EE9167E250E007936C2DA847E",
+    "url": "https://www.adzuna.in/land/ad/5876026637?se=qEWmzTqs8RGCEPCwPxbzXQ&utm_medium=api&utm_source=7559f673&v=3160605F810FB71EE9167E250E007936C2DA847E",
     "posted_date": "2026-09-09T01:07:10Z",
     "job_id": "5876026637"
   },
@@ -310,7 +355,7 @@
     "company": "Elite Foods Pvt. Ltd.",
     "title": "Senior Developer",
     "location": "Kochi, Ernakulam",
-    "url": "https://www.adzuna.in/land/ad/5876025978?se=RlXglvir8RGw4d6epSviNQ&utm_medium=api&utm_source=7559f673&v=E3D487906748CCF7E9FAB4FA0DA7B5385DD09C34",
+    "url": "https://www.adzuna.in/land/ad/5876025978?se=qEWmzTqs8RGCEPCwPxbzXQ&utm_medium=api&utm_source=7559f673&v=E3D487906748CCF7E9FAB4FA0DA7B5385DD09C34",
     "posted_date": "2026-09-09T01:06:56Z",
     "job_id": "5876025978"
   },
@@ -319,7 +364,7 @@
     "company": "HDFC Bank",
     "title": "Sr. Software Engineer- Frontend",
     "location": "Navi Mumbai, Maharashtra",
-    "url": "https://www.adzuna.in/land/ad/5876025568?se=RlXglvir8RGw4d6epSviNQ&utm_medium=api&utm_source=7559f673&v=E5504E73065DB258A70D3040D45B749D2F51694B",
+    "url": "https://www.adzuna.in/land/ad/5876025568?se=qEWmzTqs8RGCEPCwPxbzXQ&utm_medium=api&utm_source=7559f673&v=E5504E73065DB258A70D3040D45B749D2F51694B",
     "posted_date": "2026-09-09T01:06:48Z",
     "job_id": "5876025568"
   },
@@ -328,7 +373,7 @@
     "company": "GEECELL Innovations Private Limited.",
     "title": "Senior Full Stack Software Engineer (Node.js, React & Flutter)",
     "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/land/ad/5876025484?se=RlXglvir8RGw4d6epSviNQ&utm_medium=api&utm_source=7559f673&v=C459F1AA8F7274DFD8E347152F0E56ACA4013E2D",
+    "url": "https://www.adzuna.in/land/ad/5876025484?se=qEWmzTqs8RGCEPCwPxbzXQ&utm_medium=api&utm_source=7559f673&v=C459F1AA8F7274DFD8E347152F0E56ACA4013E2D",
     "posted_date": "2026-09-09T01:06:46Z",
     "job_id": "5876025484"
   },
@@ -337,7 +382,7 @@
     "company": "Snabbit",
     "title": "Software Development Engineer - 3 (Flutter)",
     "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/land/ad/5876025222?se=RlXglvir8RGw4d6epSviNQ&utm_medium=api&utm_source=7559f673&v=C6569E6AFC810AF82ED65E1EDE268CF4CC85BBEB",
+    "url": "https://www.adzuna.in/land/ad/5876025222?se=qEWmzTqs8RGCEPCwPxbzXQ&utm_medium=api&utm_source=7559f673&v=C6569E6AFC810AF82ED65E1EDE268CF4CC85BBEB",
     "posted_date": "2026-09-09T01:06:41Z",
     "job_id": "5876025222"
   },
@@ -346,7 +391,7 @@
     "company": "Taglynk",
     "title": "Senior Software Engineer - Flutter",
     "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/land/ad/5876025058?se=RlXglvir8RGw4d6epSviNQ&utm_medium=api&utm_source=7559f673&v=A52864093F83300F6E912F6AA940EB38F83F29DE",
+    "url": "https://www.adzuna.in/land/ad/5876025058?se=qEWmzTqs8RGCEPCwPxbzXQ&utm_medium=api&utm_source=7559f673&v=A52864093F83300F6E912F6AA940EB38F83F29DE",
     "posted_date": "2026-09-09T01:06:37Z",
     "job_id": "5876025058"
   },
@@ -355,9 +400,18 @@
     "company": "UST",
     "title": "Senior .NET Full Stack Engineer / Technical Lead",
     "location": "India",
-    "url": "https://www.adzuna.in/land/ad/5876024812?se=RlXglvir8RGw4d6epSviNQ&utm_medium=api&utm_source=7559f673&v=AF8B5C40F7E85547C58F9C8B3BA153DB397BB330",
+    "url": "https://www.adzuna.in/land/ad/5876024812?se=qEWmzTqs8RGCEPCwPxbzXQ&utm_medium=api&utm_source=7559f673&v=AF8B5C40F7E85547C58F9C8B3BA153DB397BB330",
     "posted_date": "2026-09-09T01:06:31Z",
     "job_id": "5876024812"
+  },
+  {
+    "source": "adzuna",
+    "company": "Horigine Consulting Pvt. Ltd",
+    "title": "Amadeus - Mobile Development 2",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5875848655?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-09-08T23:40:13Z",
+    "job_id": "5875848655"
   },
   {
     "source": "adzuna",
@@ -526,7 +580,7 @@
     "company": "Synterra IT Solutions Pvt. Ltd",
     "title": "Senior Flutter Engineer",
     "location": "India",
-    "url": "https://www.adzuna.in/land/ad/5864439038?se=2m4cmfir8RGw3Jjq3l7bMw&utm_medium=api&utm_source=7559f673&v=1D15A8A5629AC929A993C1451747D5DE3FCDD212",
+    "url": "https://www.adzuna.in/land/ad/5864439038?se=GAdVzzqs8RGqpLIJCcqMQA&utm_medium=api&utm_source=7559f673&v=1D15A8A5629AC929A993C1451747D5DE3FCDD212",
     "posted_date": "2026-09-01T16:22:51Z",
     "job_id": "5864439038"
   },
@@ -535,7 +589,7 @@
     "company": "HDFC Bank",
     "title": "Lead Frontend Developer - Flutter",
     "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/land/ad/5864433186?se=2m4cmfir8RGw3Jjq3l7bMw&utm_medium=api&utm_source=7559f673&v=DA1CE669E1FC9A4472E918877C134E064948A85B",
+    "url": "https://www.adzuna.in/land/ad/5864433186?se=GAdVzzqs8RGqpLIJCcqMQA&utm_medium=api&utm_source=7559f673&v=DA1CE669E1FC9A4472E918877C134E064948A85B",
     "posted_date": "2026-09-01T16:22:01Z",
     "job_id": "5864433186"
   },
@@ -544,7 +598,7 @@
     "company": "Hindustan Drone Services",
     "title": "Flutter Developer - Mid Level",
     "location": "Hyderabad, Telangana",
-    "url": "https://www.adzuna.in/land/ad/5864432264?se=2m4cmfir8RGw3Jjq3l7bMw&utm_medium=api&utm_source=7559f673&v=CCF474DBCA9803BCCA6EEEE86C58779326F919A8",
+    "url": "https://www.adzuna.in/land/ad/5864432264?se=GAdVzzqs8RGqpLIJCcqMQA&utm_medium=api&utm_source=7559f673&v=CCF474DBCA9803BCCA6EEEE86C58779326F919A8",
     "posted_date": "2026-09-01T16:21:52Z",
     "job_id": "5864432264"
   },
@@ -592,59 +646,5 @@
     "url": "https://www.adzuna.in/details/5859122845?utm_medium=api&utm_source=7559f673",
     "posted_date": "2026-08-28T07:37:38Z",
     "job_id": "5859122845"
-  },
-  {
-    "source": "adzuna",
-    "company": "Robosoft Technologies",
-    "title": "Flutter Developer",
-    "location": "Navi Mumbai, Maharashtra",
-    "url": "https://www.adzuna.in/details/5859122654?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-08-28T07:37:33Z",
-    "job_id": "5859122654"
-  },
-  {
-    "source": "adzuna",
-    "company": "Webkul Software PvtLtd",
-    "title": "Flutter Developer",
-    "location": "Noida, Ghaziabad",
-    "url": "https://www.adzuna.in/details/5856683869?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-08-26T16:06:20Z",
-    "job_id": "5856683869"
-  },
-  {
-    "source": "adzuna",
-    "company": "keshvacredit services private limited",
-    "title": "android app developer",
-    "location": "Fatehabad, Haryana",
-    "url": "https://www.adzuna.in/details/5856673927?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-08-26T16:04:43Z",
-    "job_id": "5856673927"
-  },
-  {
-    "source": "adzuna",
-    "company": "McAfee, Inc.",
-    "title": "Senior Development Engineer - Flutter",
-    "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/details/5856447836?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-08-26T11:20:14Z",
-    "job_id": "5856447836"
-  },
-  {
-    "source": "adzuna",
-    "company": "Infosys Limited",
-    "title": "Flutter Developer",
-    "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/details/5856197527?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-08-26T07:38:08Z",
-    "job_id": "5856197527"
-  },
-  {
-    "source": "adzuna",
-    "company": "Erekrut... Recruitment Made Easy",
-    "title": "Software Engineer",
-    "location": "Hyderabad, Telangana",
-    "url": "https://www.adzuna.in/details/5854321645?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-08-24T16:04:28Z",
-    "job_id": "5854321645"
   }
 ]
