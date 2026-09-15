@@ -1,6 +1,24 @@
 [
   {
     "source": "adzuna",
+    "company": "Momentum Services",
+    "title": "Flutter Developer MMH260914-1",
+    "location": "Navi Mumbai, Maharashtra",
+    "url": "https://www.adzuna.in/details/5884512177?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-09-15T16:15:15Z",
+    "job_id": "5884512177"
+  },
+  {
+    "source": "adzuna",
+    "company": "Tide",
+    "title": "Senior Software Engineer, Flutter",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5883788700?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-09-14T22:21:50Z",
+    "job_id": "5883788700"
+  },
+  {
+    "source": "adzuna",
     "company": "Tide",
     "title": "Senior Software Engineer, Flutter",
     "location": "Hyderabad, Telangana",
@@ -28,10 +46,28 @@
   },
   {
     "source": "adzuna",
+    "company": "McAfee, Inc.",
+    "title": "C++ Software Development Engineer",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5883282117?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-09-14T11:18:41Z",
+    "job_id": "5883282117"
+  },
+  {
+    "source": "adzuna",
+    "company": "Cognizant",
+    "title": "Architect",
+    "location": "Hyderabad, Telangana",
+    "url": "https://www.adzuna.in/details/5883278703?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-09-14T11:17:08Z",
+    "job_id": "5883278703"
+  },
+  {
+    "source": "adzuna",
     "company": "The Transformation Group",
     "title": "Senior Flutter Engineer",
     "location": "India",
-    "url": "https://www.adzuna.in/land/ad/5882865145?se=yOJUT7Kw8RG1JO75aJTnhQ&utm_medium=api&utm_source=7559f673&v=6F081D64C53B2E77BD27F0F5D93DA2AF28C9EE38",
+    "url": "https://www.adzuna.in/land/ad/5882865145?se=_As16fOw8RGLI4viE3-h6w&utm_medium=api&utm_source=7559f673&v=6F081D64C53B2E77BD27F0F5D93DA2AF28C9EE38",
     "posted_date": "2026-09-14T01:14:46Z",
     "job_id": "5882865145"
   },
@@ -67,7 +103,7 @@
     "company": "Awign Expert",
     "title": "Senior flutter developer",
     "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/land/ad/5879663993?se=yOJUT7Kw8RG1JO75aJTnhQ&utm_medium=api&utm_source=7559f673&v=30543A0B2C0CAFDBC89DF02ACF47ABE9C51E1A36",
+    "url": "https://www.adzuna.in/land/ad/5879663993?se=_As16fOw8RGLI4viE3-h6w&utm_medium=api&utm_source=7559f673&v=30543A0B2C0CAFDBC89DF02ACF47ABE9C51E1A36",
     "posted_date": "2026-09-11T17:13:14Z",
     "job_id": "5879663993"
   },
@@ -292,7 +328,7 @@
     "company": "Synterra IT Solutions Pvt. Ltd",
     "title": "Senior Flutter Engineer",
     "location": "India",
-    "url": "https://www.adzuna.in/land/ad/5864439038?se=4FRRVbKw8RGNCI4LXswoCg&utm_medium=api&utm_source=7559f673&v=1D15A8A5629AC929A993C1451747D5DE3FCDD212",
+    "url": "https://www.adzuna.in/land/ad/5864439038?se=Onsm6_Ow8RGLI4viE3-h6w&utm_medium=api&utm_source=7559f673&v=1D15A8A5629AC929A993C1451747D5DE3FCDD212",
     "posted_date": "2026-09-01T16:22:51Z",
     "job_id": "5864439038"
   },
@@ -301,7 +337,7 @@
     "company": "HDFC Bank",
     "title": "Lead Frontend Developer - Flutter",
     "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/land/ad/5864433186?se=4FRRVbKw8RGNCI4LXswoCg&utm_medium=api&utm_source=7559f673&v=DA1CE669E1FC9A4472E918877C134E064948A85B",
+    "url": "https://www.adzuna.in/land/ad/5864433186?se=Onsm6_Ow8RGLI4viE3-h6w&utm_medium=api&utm_source=7559f673&v=DA1CE669E1FC9A4472E918877C134E064948A85B",
     "posted_date": "2026-09-01T16:22:01Z",
     "job_id": "5864433186"
   },
@@ -358,32 +394,5 @@
     "url": "https://www.adzuna.in/details/5859122654?utm_medium=api&utm_source=7559f673",
     "posted_date": "2026-08-28T07:37:33Z",
     "job_id": "5859122654"
-  },
-  {
-    "source": "adzuna",
-    "company": "keshvacredit services private limited",
-    "title": "android app developer",
-    "location": "Fatehabad, Haryana",
-    "url": "https://www.adzuna.in/details/5856673927?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-08-26T16:04:43Z",
-    "job_id": "5856673927"
-  },
-  {
-    "source": "adzuna",
-    "company": "McAfee, Inc.",
-    "title": "Senior Development Engineer - Flutter",
-    "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/details/5856447836?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-08-26T11:20:14Z",
-    "job_id": "5856447836"
-  },
-  {
-    "source": "adzuna",
-    "company": "Infosys Limited",
-    "title": "Flutter Developer",
-    "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/details/5856197527?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-08-26T07:38:08Z",
-    "job_id": "5856197527"
   }
 ]
