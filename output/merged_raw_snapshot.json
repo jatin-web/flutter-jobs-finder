@@ -21,18 +21,18 @@
     "source": "greenhouse",
     "company": "moniepoint",
     "title": "Mobile Architect ",
-    "location": "Remote, Bangalore; Remote, Nigeria; Remote, Poland; Remote, Portugal; Remote, Spain",
+    "location": "Remote, Bangalore; Remote, Kenya; Remote, Nigeria; Remote, Poland; Remote, Portugal; Remote, South Africa; Remote, Spain",
     "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4330952101",
-    "posted_date": "2026-09-16T08:25:14-04:00",
+    "posted_date": "2026-09-17T05:05:30-04:00",
     "job_id": "4330952101"
   },
   {
     "source": "greenhouse",
     "company": "moniepoint",
     "title": "Mobile Architect (POS Terminal)",
-    "location": "Remote, Poland; Remote, Spain",
+    "location": "Remote, Kenya; Remote, Poland; Remote, South Africa; Remote, Spain",
     "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4932688101",
-    "posted_date": "2026-07-20T13:07:53-04:00",
+    "posted_date": "2026-09-17T05:07:19-04:00",
     "job_id": "4932688101"
   },
   {
@@ -41,7 +41,7 @@
     "title": "Mobile Architect (POS Terminal)",
     "location": "Remote, Bangalore; Remote, Portugal",
     "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4378148101",
-    "posted_date": "2026-09-09T09:25:18-04:00",
+    "posted_date": "2026-09-17T05:06:32-04:00",
     "job_id": "4378148101"
   },
   {
@@ -52,6 +52,15 @@
     "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4629921101",
     "posted_date": "2026-09-14T10:20:35-04:00",
     "job_id": "4629921101"
+  },
+  {
+    "source": "greenhouse",
+    "company": "moniepoint",
+    "title": "Senior Mobile Engineer",
+    "location": "Nairobi, Kenya; Remote, Pakistan; Remote, Poland; Remote, Portugal; Remote, South Africa; Remote, Spain",
+    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4945861101",
+    "posted_date": "2026-09-17T04:13:36-04:00",
+    "job_id": "4945861101"
   },
   {
     "source": "greenhouse",
@@ -73,6 +82,15 @@
   },
   {
     "source": "adzuna",
+    "company": "Dicetek LLC",
+    "title": "Solution Architect",
+    "location": "Chennai, Tamil Nadu",
+    "url": "https://www.adzuna.in/details/5887520845?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-09-17T16:13:26Z",
+    "job_id": "5887520845"
+  },
+  {
+    "source": "adzuna",
     "company": "Momentum Group Limited",
     "title": "Flutter Developer",
     "location": "Navi Mumbai, Maharashtra",
@@ -85,7 +103,7 @@
     "company": "CitiusTech",
     "title": "Security Testing | Technical Lead",
     "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/land/ad/5886096999?se=FD1boESy8RG0BblM2BmgEg&utm_medium=api&utm_source=7559f673&v=C349EF6EC84760F2B71FCEB9639E5416EA6FAB6B",
+    "url": "https://www.adzuna.in/land/ad/5886096999?se=zpF_1oWy8RGcmvic9-jo0w&utm_medium=api&utm_source=7559f673&v=C349EF6EC84760F2B71FCEB9639E5416EA6FAB6B",
     "posted_date": "2026-09-16T17:30:09Z",
     "job_id": "5886096999"
   },
@@ -193,7 +211,7 @@
     "company": "Awign Expert",
     "title": "Senior flutter developer",
     "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/land/ad/5879663993?se=FD1boESy8RG0BblM2BmgEg&utm_medium=api&utm_source=7559f673&v=30543A0B2C0CAFDBC89DF02ACF47ABE9C51E1A36",
+    "url": "https://www.adzuna.in/land/ad/5879663993?se=zpF_1oWy8RGcmvic9-jo0w&utm_medium=api&utm_source=7559f673&v=30543A0B2C0CAFDBC89DF02ACF47ABE9C51E1A36",
     "posted_date": "2026-09-11T17:13:14Z",
     "job_id": "5879663993"
   },
@@ -400,7 +418,7 @@
     "company": "Synterra IT Solutions Pvt. Ltd",
     "title": "Senior Flutter Engineer",
     "location": "India",
-    "url": "https://www.adzuna.in/land/ad/5864439038?se=fvcMokSy8RGPhZDySvILTw&utm_medium=api&utm_source=7559f673&v=1D15A8A5629AC929A993C1451747D5DE3FCDD212",
+    "url": "https://www.adzuna.in/land/ad/5864439038?se=MNqv2IWy8RGRr_JonSYGrg&utm_medium=api&utm_source=7559f673&v=1D15A8A5629AC929A993C1451747D5DE3FCDD212",
     "posted_date": "2026-09-01T16:22:51Z",
     "job_id": "5864439038"
   },
@@ -409,7 +427,7 @@
     "company": "HDFC Bank",
     "title": "Lead Frontend Developer - Flutter",
     "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/land/ad/5864433186?se=fvcMokSy8RGPhZDySvILTw&utm_medium=api&utm_source=7559f673&v=DA1CE669E1FC9A4472E918877C134E064948A85B",
+    "url": "https://www.adzuna.in/land/ad/5864433186?se=MNqv2IWy8RGRr_JonSYGrg&utm_medium=api&utm_source=7559f673&v=DA1CE669E1FC9A4472E918877C134E064948A85B",
     "posted_date": "2026-09-01T16:22:01Z",
     "job_id": "5864433186"
   },
@@ -439,14 +457,5 @@
     "url": "https://www.adzuna.in/details/5861794189?utm_medium=api&utm_source=7559f673",
     "posted_date": "2026-08-30T07:40:13Z",
     "job_id": "5861794189"
-  },
-  {
-    "source": "adzuna",
-    "company": "Bread Financial",
-    "title": "Engineer 3 - Flutter/Fullstack",
-    "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/details/5860540739?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-08-29T07:41:14Z",
-    "job_id": "5860540739"
   }
 ]
