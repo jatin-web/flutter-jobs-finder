@@ -54,6 +54,24 @@
     "job_id": "027b0693-41d8-4262-a0de-26fd2b186d28"
   },
   {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Mid Level Flutter Developer",
+    "location": "Brazil",
+    "url": "https://jobs.lever.co/jobgether/2bc0b918-6ade-472f-9fb0-2e48be5c8d7f",
+    "posted_date": "1790040082292",
+    "job_id": "2bc0b918-6ade-472f-9fb0-2e48be5c8d7f"
+  },
+  {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Pessoa Desenvolvedora Flutter - S\u00eanior",
+    "location": "Brazil",
+    "url": "https://jobs.lever.co/jobgether/f39eab32-8a7a-4a4e-9dd0-03eddd5f0a64",
+    "posted_date": "1789951505600",
+    "job_id": "f39eab32-8a7a-4a4e-9dd0-03eddd5f0a64"
+  },
+  {
     "source": "adzuna",
     "company": "Cognizant",
     "title": "Academy BPO Team Lead",
@@ -76,18 +94,9 @@
     "company": "Teerthanker Mahaveer University, Moradabad",
     "title": "Flutter Developer / Senior Flutter Developer",
     "location": "Moradabad, Uttar Pradesh",
-    "url": "https://www.adzuna.in/land/ad/5895030968?se=JNBUkVu48RG0YIE6S5IGQw&utm_medium=api&utm_source=7559f673&v=754AFB8D5E514B7BFEFCE2261B108EC6B35D2631",
+    "url": "https://www.adzuna.in/land/ad/5895030968?se=wDYFTI648RGj3rbruZk4CQ&utm_medium=api&utm_source=7559f673&v=754AFB8D5E514B7BFEFCE2261B108EC6B35D2631",
     "posted_date": "2026-09-23T15:38:33Z",
     "job_id": "5895030968"
-  },
-  {
-    "source": "adzuna",
-    "company": "Hancod Digital",
-    "title": "Flutter Developer Trainee",
-    "location": "India",
-    "url": "https://www.adzuna.in/details/5894623118?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-09-23T07:13:56Z",
-    "job_id": "5894623118"
   },
   {
     "source": "adzuna",
@@ -103,7 +112,7 @@
     "company": "5paisa",
     "title": "Flutter Engineer",
     "location": "India",
-    "url": "https://www.adzuna.in/land/ad/5891693753?se=JNBUkVu48RG0YIE6S5IGQw&utm_medium=api&utm_source=7559f673&v=66272F232B89780FC4CC9DDEC59F5E52EA904A7A",
+    "url": "https://www.adzuna.in/land/ad/5891693753?se=wDYFTI648RGj3rbruZk4CQ&utm_medium=api&utm_source=7559f673&v=66272F232B89780FC4CC9DDEC59F5E52EA904A7A",
     "posted_date": "2026-09-20T17:35:54Z",
     "job_id": "5891693753"
   },
@@ -112,7 +121,7 @@
     "company": "5paisa",
     "title": "Senior Flutter Engineer",
     "location": "India",
-    "url": "https://www.adzuna.in/land/ad/5890893404?se=JNBUkVu48RG0YIE6S5IGQw&utm_medium=api&utm_source=7559f673&v=344626FCED59CB5C90BE7942A8F299B8A27BAFA5",
+    "url": "https://www.adzuna.in/land/ad/5890893404?se=wDYFTI648RGj3rbruZk4CQ&utm_medium=api&utm_source=7559f673&v=344626FCED59CB5C90BE7942A8F299B8A27BAFA5",
     "posted_date": "2026-09-19T23:25:30Z",
     "job_id": "5890893404"
   },
@@ -121,7 +130,7 @@
     "company": "MyRevue",
     "title": "Flutter & Backend Developer",
     "location": "Indore, Madhya Pradesh",
-    "url": "https://www.adzuna.in/land/ad/5890612030?se=JNBUkVu48RG0YIE6S5IGQw&utm_medium=api&utm_source=7559f673&v=F1F88A6BCBFD2A834F1E14CB70F5BBD08795FEB8",
+    "url": "https://www.adzuna.in/land/ad/5890612030?se=wDYFTI648RGj3rbruZk4CQ&utm_medium=api&utm_source=7559f673&v=F1F88A6BCBFD2A834F1E14CB70F5BBD08795FEB8",
     "posted_date": "2026-09-19T17:32:16Z",
     "job_id": "5890612030"
   },
@@ -379,15 +388,6 @@
   },
   {
     "source": "adzuna",
-    "company": "BigMint Technologies Private Limited",
-    "title": "Flutter Developer(contractual role)",
-    "location": "Raipur, Chhattisgarh",
-    "url": "https://www.adzuna.in/details/5872530408?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-09-06T07:01:53Z",
-    "job_id": "5872530408"
-  },
-  {
-    "source": "adzuna",
     "company": "Unison Consulting",
     "title": "Tester",
     "location": "Hyderabad, Telangana",
@@ -412,5 +412,14 @@
     "url": "https://www.adzuna.in/details/5869818717?utm_medium=api&utm_source=7559f673",
     "posted_date": "2026-09-04T07:37:51Z",
     "job_id": "5869818717"
+  },
+  {
+    "source": "adzuna",
+    "company": "Care health insurance",
+    "title": "Engineering Manager Mobile/Flutter (Lead)",
+    "location": "Gurgaon, Haryana",
+    "url": "https://www.adzuna.in/details/5868118430?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-09-03T08:01:05Z",
+    "job_id": "5868118430"
   }
 ]
