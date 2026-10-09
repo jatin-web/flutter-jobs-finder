@@ -1,6 +1,24 @@
 [
   {
     "source": "adzuna",
+    "company": "Neuraltechwork",
+    "title": "Flutter Android/iOS App Development",
+    "location": "Delhi, India",
+    "url": "https://www.adzuna.in/details/5920569465?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-09T17:57:01Z",
+    "job_id": "5920569465"
+  },
+  {
+    "source": "adzuna",
+    "company": "Glint",
+    "title": "Flutter Developer",
+    "location": "Chennai, Tamil Nadu",
+    "url": "https://www.adzuna.in/details/5920569304?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-09T17:56:40Z",
+    "job_id": "5920569304"
+  },
+  {
+    "source": "adzuna",
     "company": "Appernity Technologies Pvt Ltd",
     "title": "Mobile App Developer",
     "location": "Delhi, India",
@@ -466,50 +484,5 @@
     "url": "https://www.adzuna.in/details/5889501726?utm_medium=api&utm_source=7559f673",
     "posted_date": "2026-09-18T21:26:09Z",
     "job_id": "5889501726"
-  },
-  {
-    "source": "adzuna",
-    "company": "Exdera.com",
-    "title": "Flutter Developer",
-    "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/details/5887883464?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-09-17T21:22:57Z",
-    "job_id": "5887883464"
-  },
-  {
-    "source": "adzuna",
-    "company": "NeoGenCode Technologies Pvt Ltd",
-    "title": "Flutter Developer",
-    "location": "India",
-    "url": "https://www.adzuna.in/details/5887531465?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-09-17T16:15:14Z",
-    "job_id": "5887531465"
-  },
-  {
-    "source": "adzuna",
-    "company": "Dicetek LLC",
-    "title": "Solution Architect",
-    "location": "Chennai, Tamil Nadu",
-    "url": "https://www.adzuna.in/details/5887520845?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-09-17T16:13:26Z",
-    "job_id": "5887520845"
-  },
-  {
-    "source": "adzuna",
-    "company": "Momentum Group Limited",
-    "title": "Flutter Developer",
-    "location": "Navi Mumbai, Maharashtra",
-    "url": "https://www.adzuna.in/details/5886397633?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-09-16T21:46:56Z",
-    "job_id": "5886397633"
-  },
-  {
-    "source": "adzuna",
-    "company": "Scapia",
-    "title": "Flutter Engineer",
-    "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/details/5885975274?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-09-16T16:15:29Z",
-    "job_id": "5885975274"
   }
 ]
