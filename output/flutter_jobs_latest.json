@@ -19,6 +19,42 @@
   },
   {
     "source": "adzuna",
+    "company": "Appernity Technologies Pvt Ltd",
+    "title": "Mobile App Developer",
+    "location": "Delhi, India",
+    "url": "https://www.adzuna.in/details/5920526477?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-09T16:54:31Z",
+    "job_id": "5920526477"
+  },
+  {
+    "source": "adzuna",
+    "company": "Promilo",
+    "title": "Flutter Developer",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5920487930?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-09T16:40:18Z",
+    "job_id": "5920487930"
+  },
+  {
+    "source": "adzuna",
+    "company": "Solar Square",
+    "title": "Flutter Developer",
+    "location": "Bangalore, Karnataka",
+    "url": "https://www.adzuna.in/details/5920455897?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-09T16:35:10Z",
+    "job_id": "5920455897"
+  },
+  {
+    "source": "adzuna",
+    "company": "Acme Services Private Limited",
+    "title": "Engineering Manager",
+    "location": "Bazargate, Mumbai",
+    "url": "https://www.adzuna.in/details/5919544356?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-09T00:04:07Z",
+    "job_id": "5919544356"
+  },
+  {
+    "source": "adzuna",
     "company": "Photon Group",
     "title": "Sr Android Developer - Pune",
     "location": "India",
@@ -46,6 +82,15 @@
   },
   {
     "source": "adzuna",
+    "company": "Semperfi Services and Solutions",
+    "title": "Mobile lead",
+    "location": "Kochi, Ernakulam",
+    "url": "https://www.adzuna.in/details/5918909972?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-08T17:52:12Z",
+    "job_id": "5918909972"
+  },
+  {
+    "source": "adzuna",
     "company": "Brassbound Technologies",
     "title": "Mobile Developer",
     "location": "Mumbai, Maharashtra",
@@ -64,12 +109,30 @@
   },
   {
     "source": "adzuna",
+    "company": "TechPranee",
+    "title": "Flutter UI Developer",
+    "location": "Hyderabad, Telangana",
+    "url": "https://www.adzuna.in/details/5918909446?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-08T17:51:19Z",
+    "job_id": "5918909446"
+  },
+  {
+    "source": "adzuna",
     "company": "Classhose India Private Limited",
     "title": "Flutter Developer",
     "location": "Noida, Ghaziabad",
     "url": "https://www.adzuna.in/details/5918869270?utm_medium=api&utm_source=7559f673",
     "posted_date": "2026-10-08T16:48:20Z",
     "job_id": "5918869270"
+  },
+  {
+    "source": "adzuna",
+    "company": "MIS Work India Pvt Ltd",
+    "title": "Flutter Developer",
+    "location": "Delhi, India",
+    "url": "https://www.adzuna.in/details/5918845985?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-08T16:41:23Z",
+    "job_id": "5918845985"
   },
   {
     "source": "adzuna",
@@ -358,50 +421,5 @@
     "url": "https://www.adzuna.in/details/5885975274?utm_medium=api&utm_source=7559f673",
     "posted_date": "2026-09-16T16:15:29Z",
     "job_id": "5885975274"
-  },
-  {
-    "source": "adzuna",
-    "company": "Momentum Services",
-    "title": "Flutter Developer MMH260914-1",
-    "location": "Navi Mumbai, Maharashtra",
-    "url": "https://www.adzuna.in/details/5884512177?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-09-15T16:15:15Z",
-    "job_id": "5884512177"
-  },
-  {
-    "source": "adzuna",
-    "company": "Tide",
-    "title": "Senior Software Engineer, Flutter",
-    "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/details/5883489587?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-09-14T16:13:05Z",
-    "job_id": "5883489587"
-  },
-  {
-    "source": "adzuna",
-    "company": "McAfee, Inc.",
-    "title": "C++ Software Development Engineer",
-    "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/details/5883282117?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-09-14T11:18:41Z",
-    "job_id": "5883282117"
-  },
-  {
-    "source": "adzuna",
-    "company": "Cognizant",
-    "title": "Architect",
-    "location": "Hyderabad, Telangana",
-    "url": "https://www.adzuna.in/details/5883278703?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-09-14T11:17:08Z",
-    "job_id": "5883278703"
-  },
-  {
-    "source": "adzuna",
-    "company": "Shuling technology",
-    "title": "Senior DevOps & Backend Integration Engineer",
-    "location": "India",
-    "url": "https://www.adzuna.in/details/5879561781?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-09-11T16:16:13Z",
-    "job_id": "5879561781"
   }
 ]
