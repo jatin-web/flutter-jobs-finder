@@ -10,6 +10,42 @@
   },
   {
     "source": "adzuna",
+    "company": "StartUp Inc",
+    "title": "Android Developer",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5923277448?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-11T17:40:25Z",
+    "job_id": "5923277448"
+  },
+  {
+    "source": "adzuna",
+    "company": "Teamarcs Technologies Pvt. Ltd",
+    "title": "React Native Developer",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5923277160?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-11T17:40:19Z",
+    "job_id": "5923277160"
+  },
+  {
+    "source": "adzuna",
+    "company": "Sanguine Global",
+    "title": "React Native Developer",
+    "location": "Pune, Maharashtra",
+    "url": "https://www.adzuna.in/details/5923259332?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-11T16:59:42Z",
+    "job_id": "5923259332"
+  },
+  {
+    "source": "adzuna",
+    "company": "rekoon",
+    "title": "Senior Flutter Developer",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5923258649?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-11T16:59:12Z",
+    "job_id": "5923258649"
+  },
+  {
+    "source": "adzuna",
     "company": "W3 Tech Solutions",
     "title": "Flutter",
     "location": "Mumbai, Maharashtra",
@@ -55,12 +91,48 @@
   },
   {
     "source": "adzuna",
+    "company": "Vega Moon Technologies",
+    "title": "Flutter Developer",
+    "location": "Delhi, India",
+    "url": "https://www.adzuna.in/details/5923235224?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-11T16:48:18Z",
+    "job_id": "5923235224"
+  },
+  {
+    "source": "adzuna",
+    "company": "Vinove Software and Services Pvt. Ltd.",
+    "title": "Flutter Developer",
+    "location": "Noida, Ghaziabad",
+    "url": "https://www.adzuna.in/details/5923230015?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-11T16:47:44Z",
+    "job_id": "5923230015"
+  },
+  {
+    "source": "adzuna",
+    "company": "Arjh Tech Labs",
+    "title": "Flutter Mobile App Developer",
+    "location": "Noida, Ghaziabad",
+    "url": "https://www.adzuna.in/details/5923226574?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-11T16:47:25Z",
+    "job_id": "5923226574"
+  },
+  {
+    "source": "adzuna",
     "company": "PEMS Digital",
     "title": "Flutter Frontend development",
     "location": "India",
     "url": "https://www.adzuna.in/details/5923201835?utm_medium=api&utm_source=7559f673",
     "posted_date": "2026-10-11T16:42:50Z",
     "job_id": "5923201835"
+  },
+  {
+    "source": "adzuna",
+    "company": "iauro Systems Pvt. Ltd.",
+    "title": "Flutter Developer",
+    "location": "Mumbai, Maharashtra",
+    "url": "https://www.adzuna.in/details/5923151565?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-11T16:37:01Z",
+    "job_id": "5923151565"
   },
   {
     "source": "adzuna",
@@ -385,14 +457,5 @@
     "url": "https://www.adzuna.in/details/5898479751?utm_medium=api&utm_source=7559f673",
     "posted_date": "2026-09-25T21:14:55Z",
     "job_id": "5898479751"
-  },
-  {
-    "source": "adzuna",
-    "company": "Cognizant",
-    "title": "Academy BPO Team Lead",
-    "location": "Kolkata, West Bengal",
-    "url": "https://www.adzuna.in/details/5896366720?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-09-24T11:12:22Z",
-    "job_id": "5896366720"
   }
 ]
