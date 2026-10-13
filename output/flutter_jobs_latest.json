@@ -10,6 +10,60 @@
   },
   {
     "source": "adzuna",
+    "company": "Mgneto Resource Management",
+    "title": "Flutter Developer",
+    "location": "Mumbai, Maharashtra",
+    "url": "https://www.adzuna.in/details/5925673683?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-13T16:58:38Z",
+    "job_id": "5925673683"
+  },
+  {
+    "source": "adzuna",
+    "company": "EVC Global",
+    "title": "Flutter Engineer Should Know how to use Flutter (Dart)",
+    "location": "Mumbai, Maharashtra",
+    "url": "https://www.adzuna.in/details/5925661581?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-13T16:51:50Z",
+    "job_id": "5925661581"
+  },
+  {
+    "source": "adzuna",
+    "company": "A1 Human Wealth Management Private Limited",
+    "title": "Senior Flutter Developer",
+    "location": "Kolkata, West Bengal",
+    "url": "https://www.adzuna.in/details/5925661084?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-13T16:51:37Z",
+    "job_id": "5925661084"
+  },
+  {
+    "source": "adzuna",
+    "company": "topnotch infotech",
+    "title": "AI engineer and mobile application developer",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5925611976?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-13T16:25:24Z",
+    "job_id": "5925611976"
+  },
+  {
+    "source": "adzuna",
+    "company": "Cupid Compusoft",
+    "title": "JavaScript Developer",
+    "location": "Jaipur, Rajasthan",
+    "url": "https://www.adzuna.in/details/5925610312?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-13T16:25:00Z",
+    "job_id": "5925610312"
+  },
+  {
+    "source": "adzuna",
+    "company": "Cyberidentitysolutions",
+    "title": "Senior Flutter Developer",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5924576609?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-12T23:51:54Z",
+    "job_id": "5924576609"
+  },
+  {
+    "source": "adzuna",
     "company": "StartUp Inc",
     "title": "Android Developer",
     "location": "India",
@@ -439,14 +493,5 @@
     "url": "https://www.adzuna.in/details/5902287306?utm_medium=api&utm_source=7559f673",
     "posted_date": "2026-09-29T07:58:50Z",
     "job_id": "5902287306"
-  },
-  {
-    "source": "adzuna",
-    "company": "HDFC ERGO General Insurance",
-    "title": "Senior Manager - IT",
-    "location": "India",
-    "url": "https://www.adzuna.in/details/5898479751?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-09-25T21:14:55Z",
-    "job_id": "5898479751"
   }
 ]
