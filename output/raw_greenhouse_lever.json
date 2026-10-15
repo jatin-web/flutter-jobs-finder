@@ -21,15 +21,6 @@
     "source": "greenhouse",
     "company": "moniepoint",
     "title": " Product Design Manager - Design System",
-    "location": "London, United Kingdom",
-    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4987958101",
-    "posted_date": "2026-10-14T06:52:53-04:00",
-    "job_id": "4987958101"
-  },
-  {
-    "source": "greenhouse",
-    "company": "moniepoint",
-    "title": " Product Design Manager - Design System",
     "location": "Remote, Spain",
     "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4987960101",
     "posted_date": "2026-10-14T06:57:12-04:00",
@@ -45,6 +36,15 @@
     "job_id": "4987959101"
   },
   {
+    "source": "greenhouse",
+    "company": "moniepoint",
+    "title": " Product Design Manager - Design System",
+    "location": "London, United Kingdom",
+    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4987958101",
+    "posted_date": "2026-10-14T06:52:53-04:00",
+    "job_id": "4987958101"
+  },
+  {
     "source": "lever",
     "company": "idt",
     "title": "Senior Flutter Software Engineer",
@@ -52,14 +52,5 @@
     "url": "https://jobs.lever.co/idt/027b0693-41d8-4262-a0de-26fd2b186d28",
     "posted_date": "1782473261232",
     "job_id": "027b0693-41d8-4262-a0de-26fd2b186d28"
-  },
-  {
-    "source": "lever",
-    "company": "jobgether",
-    "title": "Senior Flutter Developer",
-    "location": "Brazil",
-    "url": "https://jobs.lever.co/jobgether/5e1ec58f-1386-498e-98b4-1bcaaf774333",
-    "posted_date": "1791777550692",
-    "job_id": "5e1ec58f-1386-498e-98b4-1bcaaf774333"
   }
 ]
