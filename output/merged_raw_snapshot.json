@@ -126,22 +126,13 @@
     "job_id": "027b0693-41d8-4262-a0de-26fd2b186d28"
   },
   {
-    "source": "lever",
-    "company": "jobgether",
-    "title": "Pessoa Desenvolvedora Fullstack Flutter/Node Especialista II - Backoffice Franqueado",
-    "location": "Brazil",
-    "url": "https://jobs.lever.co/jobgether/c16082fc-9282-4a5a-832c-a0ea95c1bf5c",
-    "posted_date": "1792123468819",
-    "job_id": "c16082fc-9282-4a5a-832c-a0ea95c1bf5c"
-  },
-  {
-    "source": "lever",
-    "company": "jobgether",
-    "title": "Senior Flutter Developer",
-    "location": "Brazil",
-    "url": "https://jobs.lever.co/jobgether/5e1ec58f-1386-498e-98b4-1bcaaf774333",
-    "posted_date": "1791777550692",
-    "job_id": "5e1ec58f-1386-498e-98b4-1bcaaf774333"
+    "source": "adzuna",
+    "company": "BigMint Technologies Private Limited",
+    "title": "Flutter Developer(3 Month contractual role)",
+    "location": "Raipur, Chhattisgarh",
+    "url": "https://www.adzuna.in/details/5931459791?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-17T07:37:13Z",
+    "job_id": "5931459791"
   },
   {
     "source": "adzuna",
@@ -754,32 +745,5 @@
     "url": "https://www.adzuna.in/details/5912067818?utm_medium=api&utm_source=7559f673",
     "posted_date": "2026-10-05T08:09:50Z",
     "job_id": "5912067818"
-  },
-  {
-    "source": "adzuna",
-    "company": "Byteridge",
-    "title": "Solution Architect",
-    "location": "India",
-    "url": "https://www.adzuna.in/details/5905446863?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-10-01T16:30:44Z",
-    "job_id": "5905446863"
-  },
-  {
-    "source": "adzuna",
-    "company": "Softtechover",
-    "title": "Business Development Executive",
-    "location": "Bhavnagar, Gujarat",
-    "url": "https://www.adzuna.in/details/5905434282?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-10-01T16:27:20Z",
-    "job_id": "5905434282"
-  },
-  {
-    "source": "adzuna",
-    "company": "Softtechover",
-    "title": "PHP/Laravel/Vue/React & Full-Stack Developer Intern",
-    "location": "Bhavnagar, Gujarat",
-    "url": "https://www.adzuna.in/details/5905434316?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-10-01T16:27:20Z",
-    "job_id": "5905434316"
   }
 ]
