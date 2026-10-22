@@ -12,37 +12,10 @@
     "source": "greenhouse",
     "company": "moniepoint",
     "title": "Principal Mobile Engineer (POS Terminal)",
-    "location": "Remote, Lagos, Nigeria",
-    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5009088101",
-    "posted_date": "2026-10-16T14:16:57-04:00",
-    "job_id": "5009088101"
-  },
-  {
-    "source": "greenhouse",
-    "company": "moniepoint",
-    "title": "Principal Mobile Engineer (POS Terminal)",
-    "location": "Remote, Bangalore",
-    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4378148101",
-    "posted_date": "2026-10-16T14:16:19-04:00",
-    "job_id": "4378148101"
-  },
-  {
-    "source": "greenhouse",
-    "company": "moniepoint",
-    "title": "Principal Mobile Engineer (POS Terminal)",
-    "location": "Remote, Pakistan",
-    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5009080101",
-    "posted_date": "2026-10-16T14:16:22-04:00",
-    "job_id": "5009080101"
-  },
-  {
-    "source": "greenhouse",
-    "company": "moniepoint",
-    "title": "Principal Mobile Engineer (POS Terminal)",
-    "location": "Remote, Kenya",
-    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5009081101",
-    "posted_date": "2026-10-16T14:16:25-04:00",
-    "job_id": "5009081101"
+    "location": "Remote, Spain",
+    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5009083101",
+    "posted_date": "2026-10-16T14:16:31-04:00",
+    "job_id": "5009083101"
   },
   {
     "source": "greenhouse",
@@ -57,10 +30,10 @@
     "source": "greenhouse",
     "company": "moniepoint",
     "title": "Principal Mobile Engineer (POS Terminal)",
-    "location": "Remote, Spain",
-    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5009083101",
-    "posted_date": "2026-10-16T14:16:31-04:00",
-    "job_id": "5009083101"
+    "location": "Remote, Pakistan",
+    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5009080101",
+    "posted_date": "2026-10-16T14:16:22-04:00",
+    "job_id": "5009080101"
   },
   {
     "source": "greenhouse",
@@ -81,6 +54,33 @@
     "job_id": "5009087101"
   },
   {
+    "source": "greenhouse",
+    "company": "moniepoint",
+    "title": "Principal Mobile Engineer (POS Terminal)",
+    "location": "Remote, Lagos, Nigeria",
+    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5009088101",
+    "posted_date": "2026-10-16T14:16:57-04:00",
+    "job_id": "5009088101"
+  },
+  {
+    "source": "greenhouse",
+    "company": "moniepoint",
+    "title": "Principal Mobile Engineer (POS Terminal)",
+    "location": "Remote, Bangalore",
+    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4378148101",
+    "posted_date": "2026-10-16T14:16:19-04:00",
+    "job_id": "4378148101"
+  },
+  {
+    "source": "greenhouse",
+    "company": "moniepoint",
+    "title": "Principal Mobile Engineer (POS Terminal)",
+    "location": "Remote, Kenya",
+    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5009081101",
+    "posted_date": "2026-10-16T14:16:25-04:00",
+    "job_id": "5009081101"
+  },
+  {
     "source": "lever",
     "company": "idt",
     "title": "Senior Flutter Software Engineer",
@@ -88,6 +88,33 @@
     "url": "https://jobs.lever.co/idt/027b0693-41d8-4262-a0de-26fd2b186d28",
     "posted_date": "1782473261232",
     "job_id": "027b0693-41d8-4262-a0de-26fd2b186d28"
+  },
+  {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Pessoa Desenvolvedora Fullstack Flutter/Node Especialista II - Backoffice Franqueado",
+    "location": "Brazil",
+    "url": "https://jobs.lever.co/jobgether/c16082fc-9282-4a5a-832c-a0ea95c1bf5c",
+    "posted_date": "1792123468819",
+    "job_id": "c16082fc-9282-4a5a-832c-a0ea95c1bf5c"
+  },
+  {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Senior Developer",
+    "location": "India",
+    "url": "https://jobs.lever.co/jobgether/9788391a-c8ed-4d25-b8fd-32f7c5b9b887",
+    "posted_date": "1792556198736",
+    "job_id": "9788391a-c8ed-4d25-b8fd-32f7c5b9b887"
+  },
+  {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Senior Mobile Developer for Dart Flutter",
+    "location": "India",
+    "url": "https://jobs.lever.co/jobgether/c4003a7d-bbd8-4c7d-89e3-127949e2992d",
+    "posted_date": "1792557934903",
+    "job_id": "c4003a7d-bbd8-4c7d-89e3-127949e2992d"
   },
   {
     "source": "adzuna",
