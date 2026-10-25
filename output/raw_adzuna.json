@@ -1,6 +1,15 @@
 [
   {
     "source": "adzuna",
+    "company": "Weave",
+    "title": "Senior Software Engineer",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5941585511?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-25T21:38:57Z",
+    "job_id": "5941585511"
+  },
+  {
+    "source": "adzuna",
     "company": "Obbian Technologies OPC Private Limited",
     "title": "Lead Fullstack Developer (AI Systems & Architecture)",
     "location": "India",
@@ -583,15 +592,6 @@
     "url": "https://www.adzuna.in/details/5918845971?utm_medium=api&utm_source=7559f673",
     "posted_date": "2026-10-08T16:41:22Z",
     "job_id": "5918845971"
-  },
-  {
-    "source": "adzuna",
-    "company": "CGI",
-    "title": "Flutter Developer",
-    "location": "India",
-    "url": "https://www.adzuna.in/details/5917384406?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-10-07T22:08:22Z",
-    "job_id": "5917384406"
   },
   {
     "source": "adzuna",
