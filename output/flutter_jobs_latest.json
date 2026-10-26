@@ -27,6 +27,33 @@
     "job_id": "c4003a7d-bbd8-4c7d-89e3-127949e2992d"
   },
   {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Senior Software Engineer",
+    "location": "India",
+    "url": "https://jobs.lever.co/jobgether/d7c9f343-8f44-4507-a22e-2b777773b4fb",
+    "posted_date": "1792992812265",
+    "job_id": "d7c9f343-8f44-4507-a22e-2b777773b4fb"
+  },
+  {
+    "source": "adzuna",
+    "company": "Flipzon",
+    "title": "Flutter developer",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5942168293?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-26T17:10:20Z",
+    "job_id": "5942168293"
+  },
+  {
+    "source": "adzuna",
+    "company": "mandin studios llp",
+    "title": "Flutter Developer",
+    "location": "Hyderabad, Telangana",
+    "url": "https://www.adzuna.in/details/5942166627?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-10-26T17:09:46Z",
+    "job_id": "5942166627"
+  },
+  {
     "source": "adzuna",
     "company": "Weave",
     "title": "Senior Software Engineer",
@@ -520,32 +547,5 @@
     "url": "https://www.adzuna.in/details/5916978889?utm_medium=api&utm_source=7559f673",
     "posted_date": "2026-10-07T17:31:58Z",
     "job_id": "5916978889"
-  },
-  {
-    "source": "adzuna",
-    "company": "Edventure Club",
-    "title": "Tech Lead/Co-founder",
-    "location": "India",
-    "url": "https://www.adzuna.in/details/5916923636?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-10-07T16:52:14Z",
-    "job_id": "5916923636"
-  },
-  {
-    "source": "adzuna",
-    "company": "Dacway",
-    "title": "Flutter Developer",
-    "location": "Pune, Maharashtra",
-    "url": "https://www.adzuna.in/details/5916911982?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-10-07T16:46:05Z",
-    "job_id": "5916911982"
-  },
-  {
-    "source": "adzuna",
-    "company": "zivratechnologies",
-    "title": "Senior Flutter Developer",
-    "location": "India",
-    "url": "https://www.adzuna.in/details/5916910261?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-10-07T16:45:41Z",
-    "job_id": "5916910261"
   }
 ]
