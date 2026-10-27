@@ -12,37 +12,10 @@
     "source": "greenhouse",
     "company": "moniepoint",
     "title": "Principal Mobile Engineer (POS Terminal)",
-    "location": "Remote, Portugal",
-    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5009084101",
-    "posted_date": "2026-10-16T14:16:34-04:00",
-    "job_id": "5009084101"
-  },
-  {
-    "source": "greenhouse",
-    "company": "moniepoint",
-    "title": "Principal Mobile Engineer (POS Terminal)",
-    "location": "Remote, Poland",
-    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5009087101",
-    "posted_date": "2026-10-16T14:16:37-04:00",
-    "job_id": "5009087101"
-  },
-  {
-    "source": "greenhouse",
-    "company": "moniepoint",
-    "title": "Principal Mobile Engineer (POS Terminal)",
     "location": "Remote, Bangalore",
     "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4378148101",
     "posted_date": "2026-10-16T14:16:19-04:00",
     "job_id": "4378148101"
-  },
-  {
-    "source": "greenhouse",
-    "company": "moniepoint",
-    "title": "Principal Mobile Engineer (POS Terminal)",
-    "location": "Remote, Lagos, Nigeria",
-    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5009088101",
-    "posted_date": "2026-10-16T14:16:57-04:00",
-    "job_id": "5009088101"
   },
   {
     "source": "greenhouse",
@@ -81,6 +54,33 @@
     "job_id": "5009083101"
   },
   {
+    "source": "greenhouse",
+    "company": "moniepoint",
+    "title": "Principal Mobile Engineer (POS Terminal)",
+    "location": "Remote, Portugal",
+    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5009084101",
+    "posted_date": "2026-10-16T14:16:34-04:00",
+    "job_id": "5009084101"
+  },
+  {
+    "source": "greenhouse",
+    "company": "moniepoint",
+    "title": "Principal Mobile Engineer (POS Terminal)",
+    "location": "Remote, Poland",
+    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5009087101",
+    "posted_date": "2026-10-16T14:16:37-04:00",
+    "job_id": "5009087101"
+  },
+  {
+    "source": "greenhouse",
+    "company": "moniepoint",
+    "title": "Principal Mobile Engineer (POS Terminal)",
+    "location": "Remote, Lagos, Nigeria",
+    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/5009088101",
+    "posted_date": "2026-10-16T14:16:57-04:00",
+    "job_id": "5009088101"
+  },
+  {
     "source": "lever",
     "company": "idt",
     "title": "Senior Flutter Software Engineer",
@@ -88,6 +88,15 @@
     "url": "https://jobs.lever.co/idt/027b0693-41d8-4262-a0de-26fd2b186d28",
     "posted_date": "1782473261232",
     "job_id": "027b0693-41d8-4262-a0de-26fd2b186d28"
+  },
+  {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Especialista de Desenvolvimento Mobile Flutter",
+    "location": "Brazil",
+    "url": "https://jobs.lever.co/jobgether/0278c5ce-ea5e-46c8-9f2d-3fdd09d40dd2",
+    "posted_date": "1793072421895",
+    "job_id": "0278c5ce-ea5e-46c8-9f2d-3fdd09d40dd2"
   },
   {
     "source": "lever",
