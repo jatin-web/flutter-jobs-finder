@@ -11,11 +11,29 @@
   {
     "source": "lever",
     "company": "jobgether",
+    "title": "Lead Flutter Developer",
+    "location": "Brazil",
+    "url": "https://jobs.lever.co/jobgether/57e0ae65-904b-4c74-9c08-69d284efbbc3",
+    "posted_date": "1794885518112",
+    "job_id": "57e0ae65-904b-4c74-9c08-69d284efbbc3"
+  },
+  {
+    "source": "lever",
+    "company": "jobgether",
     "title": "Senior Flutter Developer",
     "location": "India",
     "url": "https://jobs.lever.co/jobgether/c69e94d4-746f-4a6f-9049-1ba0d1c60080",
     "posted_date": "1794628680803",
     "job_id": "c69e94d4-746f-4a6f-9049-1ba0d1c60080"
+  },
+  {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Sr Flutter Developer",
+    "location": "Brazil",
+    "url": "https://jobs.lever.co/jobgether/9e0c09e3-1d53-4e62-9a2e-88d0cd31ef9c",
+    "posted_date": "1794885615493",
+    "job_id": "9e0c09e3-1d53-4e62-9a2e-88d0cd31ef9c"
   },
   {
     "source": "adzuna",
@@ -142,15 +160,6 @@
     "url": "https://www.adzuna.in/details/5963434415?utm_medium=api&utm_source=7559f673",
     "posted_date": "2026-11-12T22:04:59Z",
     "job_id": "5963434415"
-  },
-  {
-    "source": "adzuna",
-    "company": "Scapia",
-    "title": "Flutter Developer",
-    "location": "India",
-    "url": "https://www.adzuna.in/details/5963175044?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-11-12T18:59:56Z",
-    "job_id": "5963175044"
   },
   {
     "source": "adzuna",
