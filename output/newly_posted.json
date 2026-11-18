@@ -1,12 +1,12 @@
 [
   {
-    "source": "lever",
-    "company": "jobgether",
-    "title": "Senior Flutter Developer",
-    "location": "India",
-    "url": "https://jobs.lever.co/jobgether/c69e94d4-746f-4a6f-9049-1ba0d1c60080",
-    "posted_date": "1794628680803",
-    "job_id": "c69e94d4-746f-4a6f-9049-1ba0d1c60080"
+    "source": "adzuna",
+    "company": "Zylu",
+    "title": "AI-Native Full-Stack Engineer (Flutter  PHP)",
+    "location": "Madivala, Bangalore",
+    "url": "https://www.adzuna.in/details/5969803802?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-11-18T10:21:57Z",
+    "job_id": "5969803802"
   },
   {
     "source": "adzuna",
@@ -34,6 +34,15 @@
     "url": "https://www.adzuna.in/details/5967010054?utm_medium=api&utm_source=7559f673",
     "posted_date": "2026-11-15T22:20:51Z",
     "job_id": "5967010054"
+  },
+  {
+    "source": "adzuna",
+    "company": "Jobgether",
+    "title": "Senior Flutter Developer",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5967001389?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-11-15T22:10:06Z",
+    "job_id": "5967001389"
   },
   {
     "source": "adzuna",
@@ -145,24 +154,6 @@
   },
   {
     "source": "adzuna",
-    "company": "Magnet HR Tech Digital",
-    "title": "Android Native & Flutter Developer",
-    "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/details/5955041692?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-11-06T08:53:58Z",
-    "job_id": "5955041692"
-  },
-  {
-    "source": "adzuna",
-    "company": "Magnet HR Tech Digital",
-    "title": "iOS Native & Flutter Developer",
-    "location": "Bangalore, Karnataka",
-    "url": "https://www.adzuna.in/details/5955041702?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-11-06T08:53:58Z",
-    "job_id": "5955041702"
-  },
-  {
-    "source": "adzuna",
     "company": "Umberto Ceramics International Private Limited",
     "title": "Senior Web Developer",
     "location": "India",
@@ -250,14 +241,5 @@
     "url": "https://www.adzuna.in/details/5940363035?utm_medium=api&utm_source=7559f673",
     "posted_date": "2026-10-24T16:51:01Z",
     "job_id": "5940363035"
-  },
-  {
-    "source": "adzuna",
-    "company": "Skill College",
-    "title": "Flutter Developer",
-    "location": "Ahmedabad, Gujarat",
-    "url": "https://www.adzuna.in/details/5934108812?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-10-19T16:29:02Z",
-    "job_id": "5934108812"
   }
 ]
