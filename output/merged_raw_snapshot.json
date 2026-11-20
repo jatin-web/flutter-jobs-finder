@@ -9,13 +9,40 @@
     "job_id": "8232526"
   },
   {
-    "source": "adzuna",
-    "company": "Weave",
-    "title": "Senior Software Mobile Engineer",
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Lead Flutter Developer",
+    "location": "Brazil",
+    "url": "https://jobs.lever.co/jobgether/57e0ae65-904b-4c74-9c08-69d284efbbc3",
+    "posted_date": "1794885518112",
+    "job_id": "57e0ae65-904b-4c74-9c08-69d284efbbc3"
+  },
+  {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Senior Flutter Developer",
     "location": "India",
-    "url": "https://www.adzuna.in/details/5970563538?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-11-18T22:33:50Z",
-    "job_id": "5970563538"
+    "url": "https://jobs.lever.co/jobgether/c69e94d4-746f-4a6f-9049-1ba0d1c60080",
+    "posted_date": "1794628680803",
+    "job_id": "c69e94d4-746f-4a6f-9049-1ba0d1c60080"
+  },
+  {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Sr Flutter Developer",
+    "location": "Brazil",
+    "url": "https://jobs.lever.co/jobgether/9e0c09e3-1d53-4e62-9a2e-88d0cd31ef9c",
+    "posted_date": "1794885615493",
+    "job_id": "9e0c09e3-1d53-4e62-9a2e-88d0cd31ef9c"
+  },
+  {
+    "source": "adzuna",
+    "company": "CGI",
+    "title": "Flutter Developer",
+    "location": "India",
+    "url": "https://www.adzuna.in/details/5971856364?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-11-19T22:17:03Z",
+    "job_id": "5971856364"
   },
   {
     "source": "adzuna",
@@ -52,15 +79,6 @@
     "url": "https://www.adzuna.in/details/5967668636?utm_medium=api&utm_source=7559f673",
     "posted_date": "2026-11-16T16:42:59Z",
     "job_id": "5967668636"
-  },
-  {
-    "source": "adzuna",
-    "company": "Jobgether",
-    "title": "Senior Flutter Developer",
-    "location": "India",
-    "url": "https://www.adzuna.in/details/5967001389?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-11-15T22:10:06Z",
-    "job_id": "5967001389"
   },
   {
     "source": "adzuna",
@@ -160,6 +178,15 @@
     "url": "https://www.adzuna.in/details/5957037497?utm_medium=api&utm_source=7559f673",
     "posted_date": "2026-11-07T19:07:00Z",
     "job_id": "5957037497"
+  },
+  {
+    "source": "adzuna",
+    "company": "eatOS POS",
+    "title": "Senior Flutter Developer",
+    "location": "Raghubar Pura, East Delhi",
+    "url": "https://www.adzuna.in/details/5955822147?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-11-06T22:13:23Z",
+    "job_id": "5955822147"
   },
   {
     "source": "adzuna",
