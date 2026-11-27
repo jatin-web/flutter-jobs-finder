@@ -9,6 +9,15 @@
     "job_id": "8232526"
   },
   {
+    "source": "lever",
+    "company": "jobgether",
+    "title": "Senior Flutter Engineer",
+    "location": "Switzerland",
+    "url": "https://jobs.lever.co/jobgether/e726e644-4041-4924-a437-7accd4dbefa4",
+    "posted_date": "1795687923217",
+    "job_id": "e726e644-4041-4924-a437-7accd4dbefa4"
+  },
+  {
     "source": "adzuna",
     "company": "Customertimes",
     "title": "JR-232247 Flutter Developer Middle",
@@ -55,15 +64,6 @@
   },
   {
     "source": "adzuna",
-    "company": "CGI",
-    "title": "Flutter Developer",
-    "location": "India",
-    "url": "https://www.adzuna.in/details/5971856364?utm_medium=api&utm_source=7559f673",
-    "posted_date": "2026-11-19T22:17:03Z",
-    "job_id": "5971856364"
-  },
-  {
-    "source": "adzuna",
     "company": "Zylu",
     "title": "AI-Native Full-Stack Engineer (Flutter  PHP)",
     "location": "Madivala, Bangalore",
@@ -97,6 +97,15 @@
     "url": "https://www.adzuna.in/details/5967668636?utm_medium=api&utm_source=7559f673",
     "posted_date": "2026-11-16T16:42:59Z",
     "job_id": "5967668636"
+  },
+  {
+    "source": "adzuna",
+    "company": "XTRM Inc.",
+    "title": "Senior Flutter Developer",
+    "location": "Chennai, Tamil Nadu",
+    "url": "https://www.adzuna.in/details/5967010054?utm_medium=api&utm_source=7559f673",
+    "posted_date": "2026-11-15T22:20:51Z",
+    "job_id": "5967010054"
   },
   {
     "source": "adzuna",
